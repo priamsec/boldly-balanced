@@ -534,3 +534,86 @@ footer p {
         font-size: 1.75rem;
     }
 }
+
+/* Product Cards for Affiliate */
+.affiliate-products {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    background: var(--bg-light);
+    border-radius: 16px;
+    margin-bottom: 2rem;
+}
+
+.affiliate-products h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.section-subtitle {
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 2rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.product-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary);
+}
+
+.product-placeholder {
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+}
+
+.product-card h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-card p {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    margin-bottom: 1rem;
+}
+
+.product-btn {
+    display: inline-block;
+    background: var(--primary);
+    color: #000;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.product-btn:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+.disclosure {
+    text-align: center;
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-top: 1rem;
+}
