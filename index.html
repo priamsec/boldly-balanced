@@ -41,27 +41,63 @@
             </div>
         </section>
 
-        <section class="featured">
-            <h2>Featured</h2>
-            <div class="featured-grid">
-                <a href="posts/best-supplements-2026.html" class="featured-card">
-                    <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=80" alt="Supplements">
-                    <div class="featured-overlay">
-                        <span class="tag">Supplements</span>
-                        <h3>Best Supplements for Longevity in 2026</h3>
-                        <p>The top research-backed supplements that actually move the needle on aging.</p>
-                    </div>
-                </a>
-                <a href="posts/home-gym-essentials.html" class="featured-card">
-                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80" alt="Home Gym">
-                    <div class="featured-overlay">
-                        <span class="tag">Fitness</span>
-                        <h3>Home Gym Under $500</h3>
-                        <p>Build a complete home gym without breaking the bank.</p>
-                    </div>
-                </a>
+        <section class="carousel-section">
+            <div class="carousel">
+                <div class="carousel-track">
+                    <a href="posts/best-supplements-2026.html" class="carousel-card">
+                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=80" alt="Supplements">
+                        <div class="carousel-overlay">
+                            <span class="tag">Supplements</span>
+                            <h3>Best Supplements for Longevity in 2026</h3>
+                        </div>
+                    </a>
+                    <a href="posts/home-gym-essentials.html" class="carousel-card">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80" alt="Home Gym">
+                        <div class="carousel-overlay">
+                            <span class="tag">Fitness</span>
+                            <h3>Home Gym Under $500</h3>
+                        </div>
+                    </a>
+                    <a href="posts/anti-inflammatory-diet-2026.html" class="carousel-card">
+                        <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&q=80" alt="Anti-Inflammatory">
+                        <div class="carousel-overlay">
+                            <span class="tag">Nutrition</span>
+                            <h3>Anti-Inflammatory Diet 2026</h3>
+                        </div>
+                    </a>
+                    <a href="posts/biohacking-beginners.html" class="carousel-card">
+                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&q=80" alt="Biohacking">
+                        <div class="carousel-overlay">
+                            <span class="tag">Body</span>
+                            <h3>Biohacking for Beginners</h3>
+                        </div>
+                    </a>
+                    <a href="posts/zone-2-cardio.html" class="carousel-card">
+                        <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80" alt="Zone 2">
+                        <div class="carousel-overlay">
+                            <span class="tag">Body</span>
+                            <h3>Zone 2 Cardio</h3>
+                        </div>
+                    </a>
+                    <a href="posts/sleep-optimization.html" class="carousel-card">
+                        <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=800&q=80" alt="Sleep">
+                        <div class="carousel-overlay">
+                            <span class="tag">Sleep</span>
+                            <h3>Sleep Optimization</h3>
+                        </div>
+                    </a>
+                </div>
+                <button class="carousel-btn prev" onclick="moveCarousel(-1)">←</button>
+                <button class="carousel-btn next" onclick="moveCarousel(1)">→</button>
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="goToSlide(0)"></span>
+                    <span class="dot" onclick="goToSlide(1)"></span>
+                    <span class="dot" onclick="goToSlide(2)"></span>
+                </div>
             </div>
         </section>
+
+        <section class="featured">
 
         <section id="posts" class="posts">
             <h2>Latest Articles</h2>
@@ -324,6 +360,35 @@
         <p class="disclaimer">Disclaimer: This site is for informational purposes only. Consult a doctor before starting any supplement or fitness regimen.</p>
         <p>Amazon Store: <a href="https://www.amazon.com/shop/vitalwell0b-21" target="_blank" rel="nofollow">amazon.com/shop/vitalwell-20</a> — We may earn commissions on purchases.</p>
     </footer>
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.carousel-card');
+        const dots = document.querySelectorAll('.dot');
+        const track = document.querySelector('.carousel-track');
+        const totalSlides = slides.length;
+
+        function updateCarousel() {
+            track.style.transform = 'translateX(-' + (currentSlide * 100) + '%)';
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === currentSlide);
+            });
+        }
+
+        function moveCarousel(direction) {
+            currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+            updateCarousel();
+        }
+
+        function goToSlide(index) {
+            currentSlide = index;
+            updateCarousel();
+        }
+
+        // Auto-advance every 5 seconds
+        setInterval(() => {
+            moveCarousel(1);
+        }, 5000);
+    </script>
 </body>
 </html>
 <!-- force deploy -->
