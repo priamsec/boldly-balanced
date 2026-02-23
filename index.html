@@ -29,6 +29,10 @@
                 <a href="category/sleep.html">Sleep</a>
                 <a href="category/living.html">Living</a>
             </div>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off">
+                <div id="search-results" class="search-results"></div>
+            </div>
         </nav>
     </header>
 
@@ -516,6 +520,112 @@
             moveCarousel(1);
         }, 5000);
     </script>
+    
+    <!-- Search Functionality -->
+    <script>
+        let searchIndex = null;
+        
+        async function loadSearchIndex() {
+            if (!searchIndex) {
+                const response = await fetch('search-index.json');
+                searchIndex = await response.json();
+            }
+            return searchIndex;
+        }
+        
+        function performSearch(query, posts) {
+            if (!query || query.length < 2) return [];
+            const q = query.toLowerCase();
+            return posts.filter(post => 
+                post.title.toLowerCase().includes(q) ||
+                (post.tags && post.tags.some(tag => tag.toLowerCase().includes(q)))
+            ).slice(0, 8);
+        }
+        
+        function showResults(results) {
+            const resultsContainer = document.getElementById('search-results');
+            if (results.length === 0) {
+                resultsContainer.innerHTML = '<div class="search-no-results">No results found</div>';
+            } else {
+                resultsContainer.innerHTML = results.map(post => 
+                    '<a href="' + post.url + '" class="search-result-item">' +
+                    '<span class="search-result-title">' + post.title + '</span>' +
+                    '</a>'
+                ).join('');
+            }
+            resultsContainer.classList.add('show');
+        }
+        
+        function hideResults() {
+            const resultsContainer = document.getElementById('search-results');
+            resultsContainer.classList.remove('show');
+        }
+        
+        document.addEventListener('DOMContentLoaded', async function() {
+            const searchInput = document.getElementById('search-input');
+            const resultsContainer = document.getElementById('search-results');
+            
+            // Load search index
+            const data = await loadSearchIndex();
+            
+            searchInput.addEventListener('input', function(e) {
+                const query = e.target.value.trim();
+                if (query.length >= 2) {
+                    const results = performSearch(query, data.posts);
+                    showResults(results);
+                } else {
+                    hideResults();
+                }
+            });
+            
+            searchInput.addEventListener('focus', function() {
+                if (searchInput.value.trim().length >= 2) {
+                    const results = performSearch(searchInput.value.trim(), data.posts);
+                    showResults(results);
+                }
+            });
+            
+            // Close results when clicking outside
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.search-container')) {
+                    hideResults();
+                }
+            });
+            
+            // Keyboard navigation
+            searchInput.addEventListener('keydown', function(e) {
+                const results = resultsContainer.querySelectorAll('.search-result-item');
+                if (results.length === 0) return;
+                
+                let activeIndex = -1;
+                results.forEach((r, i) => {
+                    if (r.classList.contains('active')) activeIndex = i;
+                });
+                
+                if (e.key === 'ArrowDown') {
+                    e.preventDefault();
+                    if (activeIndex < results.length - 1) {
+                        if (activeIndex >= 0) results[activeIndex].classList.remove('active');
+                        results[activeIndex + 1].classList.add('active');
+                    }
+                } else if (e.key === 'ArrowUp') {
+                    e.preventDefault();
+                    if (activeIndex > 0) {
+                        results[activeIndex].classList.remove('active');
+                        results[activeIndex - 1].classList.add('active');
+                    }
+                } else if (e.key === 'Enter') {
+                    if (activeIndex >= 0) {
+                        results[activeIndex].click();
+                    }
+                } else if (e.key === 'Escape') {
+                    hideResults();
+                    searchInput.blur();
+                }
+            });
+        });
+    </script>
 </body>
 </html>
 <!-- force deploy -->
+<!-- test -->
