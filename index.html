@@ -656,8 +656,39 @@
             });
         });
     </script>
-<script>
+
 function filterByTag(tag) {
+    // Hide all category headers
+    document.querySelectorAll('h3[style*="margin: 3rem"]').forEach(h => {
+        h.style.display = 'none';
+    });
+    
+    const cards = document.querySelectorAll('.post-card');
+    let hasVisible = false;
+    
+    cards.forEach(card => {
+        const cardTag = card.querySelector('.tag');
+        if (!cardTag) {
+            card.style.display = 'none';
+            return;
+        }
+        const tagText = cardTag.textContent.replace('🔥 ', '').replace('🏠 ', '').replace('💰 ', '').replace('🔬 ', '').replace('🌅 ', '');
+        if (tagText === tag) {
+            card.style.display = 'block';
+            hasVisible = true;
+        } else {
+            card.style.display = 'none';
+        }
+    });
+    
+    // Show Latest This Week section
+    document.querySelectorAll('h3').forEach(h => {
+        if (h.textContent.includes('Latest This Week')) {
+            h.style.display = tag === '' ? 'block' : 'none';
+        }
+    });
+}
+ {
     const cards = document.querySelectorAll('.post-card');
     cards.forEach(card => {
         const cardTag = card.querySelector('.tag');
