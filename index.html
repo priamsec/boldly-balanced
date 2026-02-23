@@ -1,20 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="google-site-verification" content="lkYDB9o9Y5etAjlmOBjLj-y56mp3YlrWwibj8pbCNEc" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boldly Balanced | Modern Lifestyle Blog</title>
-    <meta name="description" content="Your lifestyle destination. Fitness, mindfulness, habits, productivity, and lifestyle.">
-    <meta property="og:title" content="Boldly Balanced | Modern Lifestyle Blog">
-    <meta property="og:description" content="Your lifestyle destination. Fitness, mindfulness, habits, productivity, and lifestyle.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&q=80">
-    <meta property="og:url" content="https://vitalwell.vercel.app/">
-    <meta property="og:type" content="website">
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -24,36 +14,18 @@
                 <div class="dropdown">
                     <a href="/">Home ▾</a>
                     <div class="dropdown-content">
-                        <a href="category/body.html" data-tag="Body">Body</a>
-                        <a href="category/nutrition.html" data-tag="Nutrition">Nutrition</a>
-                        <a href="category/mind.html" data-tag="Mind">Mind</a>
-                        <a href="category/living.html" data-tag="Living">Living</a>
-                        <a href="#posts" data-tag="Fitness">Fitness</a>
-                        <a href="#posts" data-tag="Wellness">Wellness</a>
-                        <a href="category/sleep.html" data-tag="Sleep">Sleep</a>
-                        <a href="#posts" data-tag="Routine">Routine</a>
-                        <a href="#posts" data-tag="Reviews">Reviews</a>
-                        <a href="#posts" data-tag="Yoga">Yoga</a>
-                        <a href="#posts" data-tag="Wearables">Wearables</a>
-                        <a href="#posts" data-tag="Tech & Lifestyle">Tech & Lifestyle</a>
-                        <a href="#posts" data-tag="Supplements">Supplements</a>
-                        <a href="#posts" data-tag="Sports">Sports</a>
-                        <a href="#posts" data-tag="Mental Fitness">Mental Fitness</a>
-                        <a href="#posts" data-tag="Longevity">Longevity</a>
-                        <a href="#posts" data-tag="Home & Wellness">Home & Wellness</a>
-                        <a href="#posts" data-tag="Habits & Growth">Habits & Growth</a>
-                        <a href="#posts" data-tag="Finance">Finance</a>
-                        <a href="#posts" data-tag="Biomarkers">Biomarkers</a>
-                        <a href="#posts" data-tag="Ultimate Guide">Ultimate Guide</a>
-                        <a href="#posts" data-tag="Emerging">Emerging</a>
-                        <a href="#posts" data-tag="Hot">Hot</a>
-                        <a href="category/lifestyle.html" data-tag="Lifestyle">Lifestyle</a>
+                        <a href="category/fitness.html">Fitness</a>
+                        <a href="category/lifestyle.html">Lifestyle</a>
+                        <a href="category/mind.html">Mind</a>
+                        <a href="category/body.html">Body</a>
+                        <a href="category/nutrition.html">Nutrition</a>
+                        <a href="category/sleep.html">Sleep</a>
+                        <a href="category/living.html">Living</a>
                     </div>
                 </div>
             </div>
             <div class="search-container">
-                <input type="text" id="search-input" placeholder="Search articles..." autocomplete="off">
-                <div id="search-results" class="search-results"></div>
+                <input type="text" id="search-input" placeholder="Search...">
             </div>
         </nav>
     </header>
@@ -62,286 +34,135 @@
         <section class="hero">
             <div class="hero-content">
                 <h1>Build Your <span>Best Self</span></h1>
-                <p>Your daily dose of lifestyle inspiration. Trends, tips, and stories for modern living.</p>
-                <a href="#posts" class="btn">Start Reading →</a>
+                <p>Your daily dose of lifestyle inspiration.</p>
             </div>
         </section>
 
+        <!-- Carousel -->
         <section class="carousel-section">
             <div class="carousel">
                 <div class="carousel-track">
-                    <a href="posts/money-habits-highly-effective-people.html" class="carousel-card">
-                        <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&q=80" alt="Money Habits">
-                        <div class="carousel-overlay">
-                            <span class="tag">💰 Hot</span>
-                            <h3>The Money Habits of Highly Effective People</h3>
-                        </div>
-                    </a>
-                    <a href="posts/minimalist-morning.html" class="carousel-card">
-                        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800&q=80" alt="Minimalist Morning">
-                        <div class="carousel-overlay">
-                            <span class="tag">🌅 Hot</span>
-                            <h3>The Minimalist Morning</h3>
-                        </div>
-                    </a>
-                    <a href="posts/mitochondrial-repair-protocol.html" class="carousel-card">
-                        <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?w=800&q=80" alt="Mitochondrial">
-                        <div class="carousel-overlay">
-                            <span class="tag">🔬 Hot</span>
-                            <h3>The Mitochondrial Repair Protocol</h3>
-                        </div>
-                    </a>
                     <a href="posts/micro-habits.html" class="carousel-card">
-                        <img src="https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=800&q=80" alt="Micro Habits">
+                        <img src="https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=1200&q=80" alt="Small steps leading to success - micro habits concept">
                         <div class="carousel-overlay">
-                            <span class="tag">🔥 Hot</span>
+                            <span class="tag">Habits & Growth</span>
                             <h3>Micro-Habits: The Small Changes That Actually Stick</h3>
                         </div>
                     </a>
                     <a href="posts/somatic-release.html" class="carousel-card">
-                        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&q=80" alt="Somatic Release">
+                        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&q=80" alt="Somatic release emotional healing">
                         <div class="carousel-overlay">
-                            <span class="tag">🔥 Emerging</span>
-                            <h3>Somatic Release: Why Screaming Might Be the Best Therapy</h3>
+                            <span class="tag">Emerging</span>
+                            <h3>The Rise of Somatic Release: Why Screaming in a Circle Might Be the Best Therapy You'll Ever Try</h3>
+                        </div>
+                    </a>
+                    <a href="posts/mental-health-fitness.html" class="carousel-card">
+                        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&q=80" alt="Mental health and fitness">
+                        <div class="carousel-overlay">
+                            <span class="tag">Mind</span>
+                            <h3>Mental Health + Fitness: The Power Connection</h3>
+                        </div>
+                    </a>
+                    <a href="posts/minimalist-morning.html" class="carousel-card">
+                        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200&q=80" alt="Calm morning routine with coffee and journal">
+                        <div class="carousel-overlay">
+                            <span class="tag">Lifestyle</span>
+                            <h3>The Minimalist Morning</h3>
+                        </div>
+                    </a>
+                    <a href="posts/women-sports-economy.html" class="carousel-card">
+                        <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=1200&q=80" alt="Women's sports">
+                        <div class="carousel-overlay">
+                            <span class="tag">Lifestyle</span>
+                            <h3>Women & Sports: The Economic Revolution</h3>
                         </div>
                     </a>
                 </div>
                 <button class="carousel-btn prev" onclick="moveCarousel(-1)">←</button>
                 <button class="carousel-btn next" onclick="moveCarousel(1)">→</button>
-                <div class="carousel-dots">
-                    <span class="dot active" onclick="goToSlide(0)"></span>
-                    <span class="dot" onclick="goToSlide(1)"></span>
-                    <span class="dot" onclick="goToSlide(2)"></span>
-                    <span class="dot" onclick="goToSlide(3)"></span>
-                    <span class="dot" onclick="goToSlide(4)"></span>
-                </div>
             </div>
         </section>
 
-        <section style="padding: 2rem; text-align: center;">
-            <h3 style="margin-bottom: 1rem;">Browse by Category</h3>
-            <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: center;">
-                <a href="#Fitness" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Fitness</a>
-                <a href="#Body" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Body</a>
-                <a href="#Nutrition" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Nutrition</a>
-                <a href="#Wellness" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Wellness</a>
-                <a href="#Routine" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Routine</a>
-                <a href="#Reviews" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Reviews</a>
-                <a href="#Mind" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Mind</a>
-                <a href="#Lifestyle" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Lifestyle</a>
-                <a href="#Yoga" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Yoga</a>
-                <a href="#Wearables" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Wearables</a>
-                <a href="#TechLifestyle" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Tech</a>
-                <a href="#Supplements" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Supplements</a>
-                <a href="#Sports" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Sports</a>
-                <a href="#Sleep" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Sleep</a>
-                <a href="#MentalFitness" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Mental Fitness</a>
-                <a href="#Longevity" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Longevity</a>
-                <a href="#Living" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Living</a>
-                <a href="#HomeWellness" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Home & Wellness</a>
-                <a href="#HabitsGrowth" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Habits & Growth</a>
-                <a href="#Finance" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Finance</a>
-                <a href="#Biomarkers" style="padding: 0.4rem 0.8rem; background: var(--bg-light); border-radius: 20px; color: var(--text-muted); font-size: 0.85rem;">Biomarkers</a>
-            </div></section>
+        <!-- Quick Categories -->
+        <section style="padding: 3rem 2rem; text-align: center;">
+            <h3 style="margin-bottom: 1.5rem;">Explore Categories</h3>
+            <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: center;">
+                <a href="category/fitness.html" style="text-decoration: none;">
+                    <div style="width: 100px; height: 100px; background: var(--bg-light); border-radius: 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: transform 0.2s;">
+                        <span style="font-size: 2rem;">💪</span>
+                        <span style="color: var(--text-muted); margin-top: 0.5rem;">Fitness</span>
+                    </div>
+                </a>
+                <a href="category/body.html" style="text-decoration: none;">
+                    <div style="width: 100px; height: 100px; background: var(--bg-light); border-radius: 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: transform 0.2s;">
+                        <span style="font-size: 2rem;">🧘</span>
+                        <span style="color: var(--text-muted); margin-top: 0.5rem;">Body</span>
+                    </div>
+                </a>
+                <a href="category/nutrition.html" style="text-decoration: none;">
+                    <div style="width: 100px; height: 100px; background: var(--bg-light); border-radius: 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: transform 0.2s;">
+                        <span style="font-size: 2rem;">🥗</span>
+                        <span style="color: var(--text-muted); margin-top: 0.5rem;">Nutrition</span>
+                    </div>
+                </a>
+                <a href="category/sleep.html" style="text-decoration: none;">
+                    <div style="width: 100px; height: 100px; background: var(--bg-light); border-radius: 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: transform 0.2s;">
+                        <span style="font-size: 2rem;">😴</span>
+                        <span style="color: var(--text-muted); margin-top: 0.5rem;">Sleep</span>
+                    </div>
+                </a>
+                <a href="category/mind.html" style="text-decoration: none;">
+                    <div style="width: 100px; height: 100px; background: var(--bg-light); border-radius: 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: transform 0.2s;">
+                        <span style="font-size: 2rem;">🧠</span>
+                        <span style="color: var(--text-muted); margin-top: 0.5rem;">Mind</span>
+                    </div>
+                </a>
+                <a href="category/living.html" style="text-decoration: none;">
+                    <div style="width: 100px; height: 100px; background: var(--bg-light); border-radius: 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: transform 0.2s;">
+                        <span style="font-size: 2rem;">🏠</span>
+                        <span style="color: var(--text-muted); margin-top: 0.5rem;">Living</span>
+                    </div>
+                </a>
+            </div>
+        </section>
 
-        <section class="featured">
-
+        <!-- Latest This Week -->
         <section id="posts" class="posts">
-            <h2>Latest Articles</h2>
-            <p class="subtitle">Your lifestyle destination</p>
-            
-            <h3 style="margin: 2rem 0 1rem;">🆕 Latest This Week</h3>
+            <h2>Latest This Week</h2>
             <div class="post-grid">
-                <a href="posts/ai-personal-growth.html" class="post-card">
+                <a href="posts/micro-habits.html" class="post-card">
                     <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&q=80" alt="AI for personal growth">
+                        <img src="https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=1200&q=80" alt="Small steps leading to success - micro habits concept">
                     </div>
                     <div class="post-card-content">
-                        <span class="tag">Tech & Lifestyle</span>
-                        <h3>AI for Personal Growth: The Tools That Actually Help</h3>
+                        <span class="tag">Habits & Growth</span>
+                        <h3>Micro-Habits: The Small Changes That Actually Stick</h3>
+                        <p>It's 6:47 AM. Your alarm went off three minutes ago....</p>
                         <span class="read-more">Read more</span>
                     </div>
                 </a>
-                <a href="posts/best-running-shoes.html" class="post-card">
+                <a href="posts/somatic-release.html" class="post-card">
                     <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200&q=80" alt="Running Shoes">
+                        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&q=80" alt="Somatic release emotional healing">
                     </div>
                     <div class="post-card-content">
-                        <span class="tag">Fitness</span>
-                        <h3>Best Running Shoes for Every Type of Runner</h3>
+                        <span class="tag">Emerging</span>
+                        <h3>The Rise of Somatic Release: Why Screaming in a Circle Might Be the Best Therapy You'll Ever Try</h3>
+                        <p>It starts as a whisper....</p>
                         <span class="read-more">Read more</span>
                     </div>
                 </a>
-                <a href="posts/gut-microbiome-foods.html" class="post-card">
+                <a href="posts/mental-health-fitness.html" class="post-card">
                     <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1200&q=80" alt="Gut healthy foods">
+                        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&q=80" alt="Mental health and fitness">
                     </div>
                     <div class="post-card-content">
-                        <span class="tag">Nutrition</span>
-                        <h3>Gut Microbiome Foods: Feed Your Bacteria Right</h3>
+                        <span class="tag">Mind</span>
+                        <h3>Mental Health + Fitness: The Power Connection</h3>
+                        <p>Exercise is one of the most powerful tools for mental health. Here's how to use fitness to boost you...</p>
                         <span class="read-more">Read more</span>
                     </div>
                 </a>
-                <a href="posts/progressive-overload-guide.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="" alt="">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Sports</span>
-                        <h3>Progressive Overload: The Secret to Gains</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-                <a href="posts/home-gym-essentials.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="" alt="">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Fitness</span>
-                        <h3>Home Gym Essentials Under $500</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-                <a href="posts/pilates-2026.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1200&q=80" alt="Pilates workout">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Fitness</span>
-                        <h3>Pilates 2026: The Complete Guide</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-                <a href="posts/meditation-beginners.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&q=80" alt="Meditation">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Wellness</span>
-                        <h3>Meditation for Beginners: Start Today</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-                <a href="posts/hydration-tips.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1523362628745-0c100150b504?w=1200&q=80" alt="Hydration">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Nutrition</span>
-                        <h3>Hydration Tips: How Much Water Do You Really Need?</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-            </div>
-
-            <h3 id="Body" style="margin: 3rem 0 1rem;">📂 Body</h3>
-            <div class="post-grid">
-                <a href="posts/biohacking-beginners.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&q=80" alt="Biohacking wellness">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Body</span>
-                        <h3>Biohacking for Beginners: Start Simple</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-                <a href="posts/zone-2-cardio.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80" alt="Zone 2 Cardio">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Body</span>
-                        <h3>Zone 2 Cardio: The Foundation of Endurance</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-                <a href="posts/walking-for-health.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1200&q=80" alt="Walking for health">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Body</span>
-                        <h3>Walking for Health: The Simplest Superpower</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-                <a href="posts/desk-stretching-routine.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=1200&q=80" alt="Desk Stretching">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Body</span>
-                        <h3>Desk Stretching Routine: Quick Relief for Office Workers</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-                <a href="posts/strength-training-after-40.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&q=80" alt="Strength training">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Body</span>
-                        <h3>Strength Training After 40: Start Now</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-            </div>
-            <h3 id="Fitness" style="margin: 3rem 0 1rem;">📂 Fitness</h3>
-            <div class="post-grid">
-                <a href="posts/best-running-shoes.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200&q=80" alt="Running Shoes">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Fitness</span>
-                        <h3>Best Running Shoes for Every Type of Runner</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-                <a href="posts/home-gym-essentials.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="" alt="">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Fitness</span>
-                        <h3>Home Gym Essentials Under $500</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-                <a href="posts/pilates-2026.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1200&q=80" alt="Pilates workout">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Fitness</span>
-                        <h3>Pilates 2026: The Complete Guide</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-                <a href="posts/best-home-gym-equipment.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&q=80" alt="Home Gym Equipment">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Fitness</span>
-                        <h3>Best Home Gym Equipment for 2026</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-                <a href="posts/stretching-mobility.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1200&q=80" alt="Stretching">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Fitness</span>
-                        <h3>Stretching & Mobility: The Complete Guide</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-            </div>
-            <h3 id="Lifestyle" style="margin: 3rem 0 1rem;">📂 Lifestyle</h3>
-            <div class="post-grid">
                 <a href="posts/minimalist-morning.html" class="post-card">
                     <div class="post-card-image">
                         <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200&q=80" alt="Calm morning routine with coffee and journal">
@@ -349,6 +170,7 @@
                     <div class="post-card-content">
                         <span class="tag">Lifestyle</span>
                         <h3>The Minimalist Morning</h3>
+                        <p>Your alarm goes off. What's your first move?...</p>
                         <span class="read-more">Read more</span>
                     </div>
                 </a>
@@ -359,85 +181,7 @@
                     <div class="post-card-content">
                         <span class="tag">Lifestyle</span>
                         <h3>Women & Sports: The Economic Revolution</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-            </div>
-            <h3 id="Mind" style="margin: 3rem 0 1rem;">📂 Mind</h3>
-            <div class="post-grid">
-                <a href="posts/mental-health-fitness.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&q=80" alt="Mental health and fitness">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Mind</span>
-                        <h3>Mental Health + Fitness: The Power Connection</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-                <a href="posts/ai-health-tracking-apps.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&q=80" alt="AI health app">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Mind</span>
-                        <h3>AI Health Tracking Apps: Your 2026 Guide</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-            </div>
-            <h3 id="Nutrition" style="margin: 3rem 0 1rem;">📂 Nutrition</h3>
-            <div class="post-grid">
-                <a href="posts/gut-microbiome-foods.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1200&q=80" alt="Gut healthy foods">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Nutrition</span>
-                        <h3>Gut Microbiome Foods: Feed Your Bacteria Right</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-                <a href="posts/hydration-tips.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1523362628745-0c100150b504?w=1200&q=80" alt="Hydration">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Nutrition</span>
-                        <h3>Hydration Tips: How Much Water Do You Really Need?</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-                <a href="posts/protein-intake-guide.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=1200&q=80" alt="Protein">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Nutrition</span>
-                        <h3>Protein Intake: How Much Do You Really Need?</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-                <a href="posts/anti-inflammatory-diet-2026.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=1200&q=80" alt="Healthy anti-inflammatory food">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Nutrition</span>
-                        <h3>Anti-Inflammatory Diet 2026: The Complete Guide</h3>
-                        <span class="read-more">Read more</span>
-                    </div>
-                </a>
-            </div>
-            <h3 id="Reviews" style="margin: 3rem 0 1rem;">📂 Reviews</h3>
-            <div class="post-grid">
-                <a href="posts/best-sleep-tech-2026.html" class="post-card">
-                    <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&q=80" alt="Sleep Tech">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">Reviews</span>
-                        <h3>Best Sleep Tech 2026: Tested & Reviewed</h3>
+                        <p>The women's sports economy has reached a tipping point. Here's what's driving it—and why it matters ...</p>
                         <span class="read-more">Read more</span>
                     </div>
                 </a>
@@ -448,19 +192,146 @@
                     <div class="post-card-content">
                         <span class="tag">Reviews</span>
                         <h3>Best Supplements for Sleep & Recovery in 2026</h3>
+                        <p>After testing dozens of supplements and reviewing hundreds of user experiences, we've compiled the d...</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/biohacking-beginners.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&q=80" alt="Biohacking wellness">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Body</span>
+                        <h3>Biohacking for Beginners: Start Simple</h3>
+                        <p>Biohacking sounds extreme—cryogenic tanks, implanted chips, 100-day fasting. But the reality is much...</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/sleep-tech-gadgets-2026.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&q=80" alt="Sleep tech">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Sleep</span>
+                        <h3>Sleep Tech Gadgets 2026: Buy or Skip?</h3>
+                        <p>Sleep tech has exploded. From smart rings to white noise machines, here's what's worth your money in...</p>
                         <span class="read-more">Read more</span>
                     </div>
                 </a>
             </div>
-            <h3 id="Routine" style="margin: 3rem 0 1rem;">📂 Routine</h3>
+        </section>
+
+        <!-- All Posts -->
+        <section class="posts" style="margin-top: 3rem;">
+            <h2>All Articles</h2>
             <div class="post-grid">
-                <a href="posts/morning-routine-energy.html" class="post-card">
+                <a href="posts/anti-inflammatory-diet-2026.html" class="post-card">
                     <div class="post-card-image">
-                        <img src="" alt="">
+                        <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=1200&q=80" alt="Healthy anti-inflammatory food">
                     </div>
                     <div class="post-card-content">
-                        <span class="tag">Routine</span>
-                        <h3>How to Build a Morning Routine for Peak Energy</h3>
+                        <span class="tag">Nutrition</span>
+                        <h3>Anti-Inflammatory Diet 2026: The Complete Guide</h3>
+                        <p>Inflammation is at the root of many chronic diseases. The good news? What you eat can dramatically r...</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/brain-wealth.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80" alt="Brain wealth cognitive optimization">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Mental Fitness</span>
+                        <h3>Brain Wealth: The Newest Form of Riches</h3>
+                        <p>There's a new currency emerging in 2026—and it has nothing to do with cryptocurrency....</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/money-habits-highly-effective-people.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80" alt="Financial habits and wealth building">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Finance</span>
+                        <h3>The Money Habits of Highly Effective People</h3>
+                        <p>Let's get something out of the way: this article isn't about getting rich quick....</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/walking-for-health.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1200&q=80" alt="Walking for health">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Body</span>
+                        <h3>Walking for Health: The Simplest Superpower</h3>
+                        <p>You don't need a gym. You don't need equipment. Walking is the most underrated exercise. Here's why—...</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/ai-health-tracking-apps.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&q=80" alt="AI health app">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Mind</span>
+                        <h3>AI Health Tracking Apps: Your 2026 Guide</h3>
+                        <p>Artificial intelligence is making personal health tracking smarter than ever. Here are the best AI-p...</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/strength-training-after-40.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&q=80" alt="Strength training">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Body</span>
+                        <h3>Strength Training After 40: Start Now</h3>
+                        <p>Yes, you can build muscle after 40. Yes, it's safe. And yes, it will change your life. Here's how to...</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/ai-personal-growth.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&q=80" alt="AI for personal growth">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Tech & Lifestyle</span>
+                        <h3>AI for Personal Growth: The Tools That Actually Help</h3>
+                        <p>There's a quiet revolution happening....</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/gut-microbiome-foods.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1200&q=80" alt="Gut healthy foods">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Nutrition</span>
+                        <h3>Gut Microbiome Foods: Feed Your Bacteria Right</h3>
+                        <p>Your gut bacteria affect everything from digestion to mood. Here's how to feed them what they need t...</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/pilates-2026.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1200&q=80" alt="Pilates workout">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Fitness</span>
+                        <h3>Pilates 2026: The Complete Guide</h3>
+                        <p>66% increase in bookings since 2024. Celebrities, athletes, and office workers alike have discovered...</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/best-sleep-tech-2026.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&q=80" alt="Sleep Tech">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Reviews</span>
+                        <h3>Best Sleep Tech 2026: Tested & Reviewed</h3>
+                        <p>We've tested the latest sleep technology to bring you the best products. Here's what actually works....</p>
                         <span class="read-more">Read more</span>
                     </div>
                 </a>
@@ -471,29 +342,95 @@
                     <div class="post-card-content">
                         <span class="tag">Routine</span>
                         <h3>Morning Routine Blueprint: Your Complete 60-Minute Reset</h3>
+                        <p>Most people wake up and immediately hand over their morning to distractions — emails, news, social m...</p>
                         <span class="read-more">Read more</span>
                     </div>
                 </a>
-            </div>
-            <h3 id="Wellness" style="margin: 3rem 0 1rem;">📂 Wellness</h3>
-            <div class="post-grid">
-                <a href="posts/meditation-beginners.html" class="post-card">
+                <a href="posts/longevity-at-home.html" class="post-card">
                     <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&q=80" alt="Meditation">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80" alt="Modern home wellness">
                     </div>
                     <div class="post-card-content">
-                        <span class="tag">Wellness</span>
-                        <h3>Meditation for Beginners: Start Today</h3>
+                        <span class="tag">Living</span>
+                        <h3>Longevity at Home: Create Your Wellness Space</h3>
+                        <p>Longevity isn't just about supplements anymore—it's about your environment. Here's how to optimize y...</p>
                         <span class="read-more">Read more</span>
                     </div>
                 </a>
-                <a href="posts/sleep-optimization.html" class="post-card">
+                <a href="posts/mitochondrial-repair-protocol.html" class="post-card">
                     <div class="post-card-image">
-                        <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&q=80" alt="Sleep">
+                        <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?w=1200&q=80" alt="Mitochondrial repair cellular energy">
                     </div>
                     <div class="post-card-content">
-                        <span class="tag">Wellness</span>
-                        <h3>Sleep Optimization: The Ultimate Guide</h3>
+                        <span class="tag">Longevity</span>
+                        <h3>The Mitochondrial Repair Protocol</h3>
+                        <p>You're 40. You've done everything "right."...</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/wellness-rooms.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1200&q=80" alt="Wellness room sanctuary">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Home & Wellness</span>
+                        <h3>Wellness Rooms: The New Must-Have in Every Home</h3>
+                        <p>There's a revolution happening in homes across the country....</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/best-supplements-2026.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&q=80" alt="Supplements">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Supplements</span>
+                        <h3>Best Supplements for Longevity in 2026</h3>
+                        <p>The supplement industry is full of hype. Here's what actually has science behind it for longevity an...</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/cheap-lab-tests.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Biomarkers</span>
+                        <h3>Cheapest Way to Get Lab Tests for Biomarkers</h3>
+                        <p>Knowledge is power. Here's how to get your key health markers checked without spending a fortune....</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/desk-stretching-routine.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=1200&q=80" alt="Desk Stretching">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Body</span>
+                        <h3>Desk Stretching Routine: Quick Relief for Office Workers</h3>
+                        <p>Hours of sitting at a desk takes a toll on your body. Tight hips, sore neck, lower back pain—these a...</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/stretching-mobility.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1200&q=80" alt="Stretching">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Fitness</span>
+                        <h3>Stretching & Mobility: The Complete Guide</h3>
+                        <p>Flexibility isn't just for yogis. It's essential for movement quality, injury prevention, and longev...</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/zone-2-cardio.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1200&q=80" alt="Zone 2 Cardio">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Body</span>
+                        <h3>Zone 2 Cardio: The Foundation of Endurance</h3>
+                        <p>Zone 2 training is the secret weapon of elite athletes and longevity enthusiasts alike. Here's why t...</p>
                         <span class="read-more">Read more</span>
                     </div>
                 </a>
@@ -504,25 +441,137 @@
                     <div class="post-card-content">
                         <span class="tag">Wellness</span>
                         <h3>Cold Exposure: Benefits and How to Start</h3>
+                        <p>Cold exposure isn't just for daredevils. It's a powerful tool for mental resilience, recovery, and l...</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/oura-vs-whoop.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=1200&q=80" alt="Oura Ring vs Whoop">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Wearables</span>
+                        <h3>Oura Ring vs Whoop: Which Is Worth It?</h3>
+                        <p>Two wearables dominate the recovery tracking space. Here's how to pick the right one for your goals....</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/sleep-optimization.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&q=80" alt="Sleep">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Wellness</span>
+                        <h3>Sleep Optimization: The Ultimate Guide</h3>
+                        <p>Sleep is the foundation of health. Optimize it and everything else gets easier. Here's how....</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/morning-routine-energy.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Routine</span>
+                        <h3>How to Build a Morning Routine for Peak Energy</h3>
+                        <p>Your morning sets the tone for your entire day. Here's how to optimize it for maximum energy....</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/beginner-yoga-routine.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Yoga</span>
+                        <h3>Beginner Yoga Routine: 15 Minutes to Flexibility</h3>
+                        <p>Yoga builds flexibility, strength, and calm. Here's a simple 15-minute routine anyone can do at home...</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/protein-intake-guide.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=1200&q=80" alt="Protein">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Nutrition</span>
+                        <h3>Protein Intake: How Much Do You Really Need?</h3>
+                        <p>Protein is the most important macronutrient for building muscle, recovery, and overall health. Here'...</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/hydration-tips.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1523362628745-0c100150b504?w=1200&q=80" alt="Hydration">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Nutrition</span>
+                        <h3>Hydration Tips: How Much Water Do You Really Need?</h3>
+                        <p>Proper hydration is one of the simplest yet most overlooked aspects of health. Yet most people walk ...</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/best-home-gym-equipment.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&q=80" alt="Home Gym Equipment">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Fitness</span>
+                        <h3>Best Home Gym Equipment for 2026</h3>
+                        <p>Building a home gym doesn't have to break the bank. Here's our curated list of essential equipment t...</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/home-gym-essentials.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Fitness</span>
+                        <h3>Home Gym Essentials Under $500</h3>
+                        <p>Build a complete home gym for under $500. No fancy equipment needed - just consistency....</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/meditation-beginners.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&q=80" alt="Meditation">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Wellness</span>
+                        <h3>Meditation for Beginners: Start Today</h3>
+                        <p>Meditation isn't about emptying your mind. It's about training it to focus. Here's how to start....</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/best-running-shoes.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200&q=80" alt="Running Shoes">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Fitness</span>
+                        <h3>Best Running Shoes for Every Type of Runner</h3>
+                        <p>Finding the right running shoe can make or break your training. Here's how to pick the perfect pair ...</p>
+                        <span class="read-more">Read more</span>
+                    </div>
+                </a>
+                <a href="posts/progressive-overload-guide.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="" alt="">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Sports</span>
+                        <h3>Progressive Overload: The Secret to Gains</h3>
+                        <p>Want to keep getting stronger? Progressive overload is the only way. Here's how to apply it properly...</p>
                         <span class="read-more">Read more</span>
                     </div>
                 </a>
             </div>
         </section>
-
-        <section id="about" class="about">
-            <h2>About Boldly Balanced</h2>
-            <p>We curate the best Lifestyle information. No hype, just what works. Our mission is to help you get a more vibrant life.</p>
-        </section>
     </main>
 
     <footer>
-        <hr>
-        <p>© 2026 Boldly Balanced. Daily LifeStyle.</p>
-        <p class="disclaimer">Disclaimer: This site is for informational purposes only. Consult a doctor before starting any supplement or fitness regimen.</p>
+        <p>© 2026 Boldly Balanced.</p>
     </footer>
-    
 </body>
 </html>
-<!-- force deploy -->
-
