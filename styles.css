@@ -109,6 +109,7 @@ nav {
     display: block;
     padding: 0.6rem 1rem;
     font-size: 0.9rem;
+    color: var(--text-muted);
 }
 
 .nav-links .dropdown-content a:hover {
