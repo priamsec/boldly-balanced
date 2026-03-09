@@ -3,7 +3,6 @@
 A lightweight, boldly balanced site within the workspace. Purpose: provide a quick reference hub for balanced risk management, clear decision logs, and accessible metrics for daily reviews.
 
 ## Quickstart
-- Path: ~/.openclaw/shared/boldly-balanced/
 - Structure:
   - assets/
   - data/
