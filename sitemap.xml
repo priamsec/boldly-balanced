@@ -86,6 +86,12 @@
     </url>
 
     <url>
+        <loc>https://boldly-balanced.vercel.app/posts/cold-shower-benefits.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
         <loc>https://boldly-balanced.vercel.app/posts/morning-sun-exposure-benefits.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
