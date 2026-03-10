@@ -356,3 +356,8 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://boldly-balanced.vercel.app/posts/nsdr-non-sleep-deep-rest.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
