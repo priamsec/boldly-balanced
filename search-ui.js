@@ -32,21 +32,14 @@
         async function loadSearchIndex() {
             if (!searchIndex) {
                 try {
-                    // Use posts.json as single source
-                    const response = await fetch('posts.json');
-                    const posts = await response.json();
-                    // Convert to search format
-                    searchIndex = posts.map(p => ({
-                        title: p.title,
-                        url: 'posts/' + p.slug + '.html',
-                        tags: [p.category.toLowerCase()]
-                    }));
+                    const response = await fetch('search-index.json');
+                    searchIndex = await response.json();
                 } catch (e) {
                     console.warn('Search index not found');
                     return null;
                 }
             }
-            return { posts: searchIndex };
+            return searchIndex;
         }
 
         function performSearch(query, posts) {
