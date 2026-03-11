@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nutrition | Boldly Balanced</title>
+    <title>Nutrition | Boldly Balance</title>
     <link rel="canonical" href="https://boldlybalance.life/category/nutrition.html">
     <meta name="description" content="Explore our Nutrition articles and guides for a healthier, balanced life.">
-    <meta property="og:title" content="Nutrition | Boldly Balanced">
+    <meta property="og:title" content="Nutrition | Boldly Balance">
     <meta property="og:description" content="Explore our Nutrition articles and guides for a healthier, balanced life.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://boldlybalance.life/category/nutrition.html">
     <meta property="og:image" content="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Nutrition | Boldly Balanced">
+    <meta name="twitter:title" content="Nutrition | Boldly Balance">
     <meta name="twitter:description" content="Explore our Nutrition articles and guides for a healthier, balanced life.">
     <link rel="stylesheet" href="../styles.css">
     <script>
@@ -23,7 +23,7 @@
 <body>
     <header>
         <nav>
-            <a href="../" class="logo">Boldly Balanced</a>
+            <a href="../" class="logo">Boldly Balance</a>
             <div class="nav-links">
                 <div class="dropdown">
                     <a href="../">Home ▾</a>
@@ -53,7 +53,7 @@
         </section>
     </main>
     <footer>
-        <p>© 2026 Boldly Balanced.</p>
+        <p>© 2026 Boldly Balance.</p>
     </footer>
     <script>
         async function loadCategoryPosts() {
@@ -63,7 +63,7 @@
                 const categoryPosts = allPosts.filter(p => p.category === categoryName);
                 categoryPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
                 document.getElementById('cat-title').textContent = categoryName;
-                document.title = categoryName + ' | Boldly Balanced';
+                document.title = categoryName + ' | Boldly Balance';
                 const container = document.getElementById('category-posts');
                 if (categoryPosts.length === 0) {
                     container.innerHTML = '<p>No articles in this category yet.</p>';
