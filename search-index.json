@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "title": "Why Your Productivity App Is Making You Less Productive",
+      "url": "posts/productivity-app-trap.html",
+      "tags": [
+        "technology",
+        "productivity",
+        "apps",
+        "digital minimalism",
+        "focus"
+      ]
+    },
+    {
       "title": "Why Digital Detoxes Fail \u2014 And the Tech Habits That Actually Stick",
       "url": "posts/why-digital-detoxes-fail.html",
       "tags": [
