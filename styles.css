@@ -1109,3 +1109,105 @@ footer hr {
 .share-btn.twitter { background: #000; }
 .share-btn.facebook { background: #1877F2; }
 .share-btn.linkedin { background: #0A66C2; }
+
+/* ─── Mobile Enhancements (BOLDL-012) ─── */
+
+@media (max-width: 768px) {
+    /* Nav: stack on mobile */
+    nav {
+        flex-direction: column;
+        gap: 0.75rem;
+        padding: 0.75rem 1rem;
+    }
+    
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    
+    .nav-links a {
+        font-size: 0.85rem;
+        padding: 0.4rem 0.75rem;
+    }
+    
+    /* Prevent horizontal scroll */
+    body {
+        overflow-x: hidden;
+    }
+    
+    /* Images: responsive */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* Product grid: single column */
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Affiliate section: less padding */
+    .affiliate-products {
+        padding: 2rem 1rem;
+        margin: 1rem;
+        border-radius: 12px;
+    }
+    
+    /* Hero adjustments */
+    .hero {
+        padding: 3rem 1rem;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    /* Post content */
+    .post-content article {
+        padding: 1rem;
+    }
+    
+    .post-content h2 {
+        font-size: 1.3rem;
+    }
+    
+    .post-content h3 {
+        font-size: 1.1rem;
+    }
+    
+    /* Related articles */
+    .related-articles {
+        padding: 2rem 1rem;
+    }
+    
+    /* Cards: full width */
+    .featured-card {
+        height: auto;
+        min-height: 250px;
+    }
+    
+    /* Footer */
+    footer {
+        padding: 2rem 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Extra small screens */
+    .hero h1 {
+        font-size: 1.75rem;
+    }
+    
+    .logo {
+        font-size: 1.4rem;
+    }
+    
+    .post-content h1 {
+        font-size: 1.5rem;
+    }
+    
+    .share-buttons {
+        flex-wrap: wrap;
+    }
+}
