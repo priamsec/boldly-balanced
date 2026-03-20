@@ -1,5 +1,29 @@
 [
   {
+    "slug": "omega-3-dosage-guide",
+    "title": "Omega-3: The Complete Guide to Dosage, Sources, and What Actually Works",
+    "category": "Nutrition",
+    "image": "photo-1577401239170-897942555fb3",
+    "excerpt": "Fish oil, algae omega-3, DHA, EPA \u2014 the omega-3 space is confusing. Here's what the science says about dosage, benefits, and how to choose a supplement.",
+    "date": "2026-03-20"
+  },
+  {
+    "slug": "intermittent-fasting-what-science-says",
+    "title": "Intermittent Fasting: What the Science Actually Says",
+    "category": "Nutrition",
+    "image": "photo-1504674900247-0877df9cc836",
+    "excerpt": "16:8, 5:2, OMAD \u2014 everyone has an opinion on intermittent fasting. Here's what the research actually supports.",
+    "date": "2026-03-20"
+  },
+  {
+    "slug": "gut-health-what-actually-matters",
+    "title": "Gut Health: What Actually Matters (And What's Just Noise)",
+    "category": "Food",
+    "image": "photo-1512621776951-a57141f2eefd",
+    "excerpt": "Probiotics, prebiotics, fermented foods, gut-brain axis. The gut health space is loud. Here's what the science actually supports \u2014 and what you can skip.",
+    "date": "2026-03-20"
+  },
+  {
     "slug": "cold-plunge-science-backed-benefits",
     "title": "The Cold Plunge: What the Science Actually Says",
     "category": "Recovery",

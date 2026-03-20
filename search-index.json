@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "title": "Omega-3: The Complete Guide to Dosage, Sources, and What Actually Works",
+      "url": "posts/omega-3-dosage-guide.html",
+      "tags": [
+        "omega-3",
+        "fish oil",
+        "nutrition",
+        "supplements",
+        "EPA",
+        "DHA"
+      ]
+    },
+    {
+      "title": "Intermittent Fasting: What the Science Actually Says",
+      "url": "posts/intermittent-fasting-what-science-says.html",
+      "tags": [
+        "intermittent fasting",
+        "nutrition",
+        "weight loss",
+        "metabolic health",
+        "16:8"
+      ]
+    },
+    {
+      "title": "Gut Health: What Actually Matters (And What's Just Noise)",
+      "url": "posts/gut-health-what-actually-matters.html",
+      "tags": [
+        "gut health",
+        "microbiome",
+        "probiotics",
+        "fermented foods",
+        "nutrition"
+      ]
+    },
+    {
       "title": "The Cold Plunge: What the Science Actually Says",
       "url": "posts/cold-plunge-science-backed-benefits.html",
       "tags": [
