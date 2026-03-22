@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "slow-travel-burnout",
+      "title": "Why Slow Travel Is the Antidote to Burnout Culture",
+      "category": "Travel",
+      "excerpt": "Rushing through destinations on vacation is just another form of burnout. Slow travel\u2014staying longer in fewer places\u2014actually restores mental health and creates lasting memories instead of Instagram moments.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      "url": "https://blog.boldlybalance.life/posts/slow-travel-burnout.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/slow-travel-burnout.json",
+      "date": "2026-03-22",
+      "readingTime": 6
+    },
+    {
       "slug": "protein-timing-muscle-growth",
       "title": "When You Eat Protein Matters More Than You Think",
       "category": "Food",
