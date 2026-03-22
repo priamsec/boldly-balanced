@@ -790,5 +790,35 @@
       "rental",
       "minimalism"
     ]
+  },
+  {
+    "title": "NAD+ and Senolytics: The Science of Living Longer, Better",
+    "slug": "nad-senolytics-science-living-longer-better",
+    "category": "Recovery",
+    "date": "2026-03-22",
+    "image": "photo-1571019613454-1cb2f99b2d8b",
+    "excerpt": "The wellness industry found its next frontier: targeting the cellular mechanisms of aging itself. NAD+ boosters and senolytic compounds promise not just longer life, but longer healthspan. Here's what the science actually says.",
+    "tags": [
+      "NAD+",
+      "senolytics",
+      "longevity",
+      "healthspan",
+      "biohacking"
+    ]
+  },
+  {
+    "title": "Wellness Travel 2026: Why Staycations Are the New Vacations",
+    "slug": "wellness-travel-2026-staycations-new-vacations",
+    "category": "Travel",
+    "date": "2026-03-22",
+    "image": "photo-1596394516093-501ba68a0ba6",
+    "excerpt": "The luxury wellness resort is having a moment \u2014 but the real trend is quieter. Americans are spending $10K+ on week-long wellness retreats. The smarter play: recreate the benefits at home for a fraction of the cost.",
+    "tags": [
+      "wellness travel",
+      "staycation",
+      "recovery",
+      "travel",
+      "self-care"
+    ]
   }
 ]
