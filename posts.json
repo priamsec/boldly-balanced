@@ -1,5 +1,13 @@
 [
   {
+    "slug": "test-template-verification",
+    "title": "Test Post: Verifying Template System Works",
+    "category": "Wellness",
+    "image": "photo-1507003211169-0a1dd7228f2d",
+    "excerpt": "This is a test post to verify the template system is working correctly when used via create-post.sh",
+    "date": "2026-03-22"
+  },
+  {
     "slug": "social-wellness-rituals-community-self-care",
     "title": "Why Group Wellness Rituals Work Better Than Solo Self-Care",
     "category": "Wellness",

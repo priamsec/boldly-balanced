@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "test-template-verification",
+      "title": "Test Post: Verifying Template System Works",
+      "category": "Wellness",
+      "excerpt": "This is a test post to verify the template system is working correctly when used via create-post.sh",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+      "url": "https://blog.boldlybalance.life/posts/test-template-verification.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/test-template-verification.json",
+      "date": "2026-03-22",
+      "readingTime": 5
+    },
+    {
       "slug": "social-wellness-rituals-community-self-care",
       "title": "Why Group Wellness Rituals Work Better Than Solo Self-Care",
       "category": "Wellness",

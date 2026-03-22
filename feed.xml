@@ -5,6 +5,13 @@
 <link>https://blog.boldlybalance.life</link>
 <description>Your daily dose of lifestyle inspiration.</description>
 <item>
+<title>Test Post: Verifying Template System Works</title>
+<link>https://blog.boldlybalance.life/posts/test-template-verification.html</link>
+<description>This is a test post to verify the template system is working correctly when used via create-post.sh</description>
+<guid>https://blog.boldlybalance.life/posts/test-template-verification.html</guid>
+<pubDate>2026-03-22</pubDate>
+</item>
+<item>
 <title>Why Group Wellness Rituals Work Better Than Solo Self-Care</title>
 <link>https://blog.boldlybalance.life/posts/social-wellness-rituals-community-self-care.html</link>
 <description>Self-care has become an individual sport. The wellness industry has sold it to you as a solo pursuit: your morning routine, your meditation cushion, your solo run, your quiet cup of coffee before the world wakes up. And all of that is fine. But the research on what actually sustains wellness behaviors over time points in a different direction. The people who maintain healthy habits for decades are almost never doing it alone.</description>
@@ -346,13 +353,6 @@
 <description>Discover how people are deliberately ditching algorithmic feeds, embracing boredom, and finding deeper satisfaction through intentional media consumption.</description>
 <guid>https://blog.boldlybalance.life/posts/anti-algorithm-movement.html</guid>
 <pubDate>2026-03-11</pubDate>
-</item>
-<item>
-<title>Grounded Optimism: The Revolutionary Art of Finding Joy Right Now</title>
-<link>https://blog.boldlybalance.life/posts/grounded-optimism-life-guide.html</link>
-<description>Discover the powerful mindset of grounded optimism—finding profound contentment and joy in your current life while still dreaming big. A guide to peace without stagnation.</description>
-<guid>https://blog.boldlybalance.life/posts/grounded-optimism-life-guide.html</guid>
-<pubDate>2026-03-10</pubDate>
 </item>
 </channel>
 </rss>

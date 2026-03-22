@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "title": "Test Post: Verifying Template System Works",
+      "url": "posts/test-template-verification.html",
+      "tags": [
+        "wellness",
+        "template",
+        "test",
+        "validation"
+      ]
+    },
+    {
       "title": "Why Group Wellness Rituals Work Better Than Solo Self-Care",
       "url": "posts/social-wellness-rituals-community-self-care.html",
       "tags": [
