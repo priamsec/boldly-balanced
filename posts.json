@@ -726,5 +726,61 @@
     "image": "photo-1718866033984-c3ddab9af2a0",
     "date": "2026-03-11",
     "excerpt": "Learn how to create a peaceful evening ritual that reduces stress, improves sleep, and helps you disconnect from the digital world without missing out."
+  },
+  {
+    "title": "How to Plan a Budget Solo Trip: The Complete 2026 Guide",
+    "slug": "budget-solo-trip-complete-guide",
+    "category": "Travel",
+    "date": "2026-03-22",
+    "image": "photo-1488646953014-85cb44e25828",
+    "excerpt": "Solo travel doesn't have to cost a fortune. Here's the exact framework for seeing the world on $50/day \u2014 without the hostel-of-youth-hostel-energy.",
+    "tags": [
+      "solo travel",
+      "budget travel",
+      "travel",
+      "remote work"
+    ]
+  },
+  {
+    "title": "Financial Wellness: The Basics Nobody Taught You",
+    "slug": "financial-wellness-basics-nobody-taught",
+    "category": "Finance",
+    "date": "2026-03-22",
+    "image": "photo-1579621970563-ebec7560ff3e",
+    "excerpt": "Most personal finance advice assumes you have money stress because you don't know spreadsheets. You probably don't \u2014 you just never learned the fundamentals. Here's what actually matters.",
+    "tags": [
+      "financial wellness",
+      "money basics",
+      "finance",
+      "personal finance"
+    ]
+  },
+  {
+    "title": "Slow Travel: A Complete Guide to Working From Anywhere",
+    "slug": "slow-travel-complete-guide",
+    "category": "Travel",
+    "date": "2026-03-22",
+    "image": "photo-1528164344705-47542687000d",
+    "excerpt": "\"Quievakations\" are up 340% as remote workers ditch resorts for real neighborhoods. Here's how to do slow travel without losing your job or your mind.",
+    "tags": [
+      "slow travel",
+      "remote work",
+      "travel",
+      "digital nomad"
+    ]
+  },
+  {
+    "title": "The 20-Minute Room: How to Transform Any Space Without Renovation",
+    "slug": "20-minute-room-transform-no-renovation",
+    "category": "Home Decor",
+    "date": "2026-03-22",
+    "image": "photo-1616486338812-3dadae4b4ace",
+    "excerpt": "Your apartment feels like a dorm. You can't paint, can't drill, can't renovate. Here's how to turn any rented space into something that actually feels like yours.",
+    "tags": [
+      "home decor",
+      "apartment",
+      "rental",
+      "minimalism"
+    ]
   }
 ]
