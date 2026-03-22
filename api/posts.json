@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "slug": "mindset-reframe-adversity",
+      "title": "The Real Reason You're Stuck: What Adversity Actually Does to You",
+      "category": "Mindset",
+      "excerpt": "Adversity doesn't build character. It reveals it.",
+      "image": "https://images.unsplash.com/photo-1506784983877-45594df4e6ba",
+      "url": "https://blog.boldlybalance.life/posts/mindset-reframe-adversity.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/mindset-reframe-adversity.json",
+      "date": "2026-03-22"
+    },
+    {
       "slug": "tourist-traps-worth-visiting",
       "title": "The Case for Tourist Traps (Why You Should Visit Them Anyway)",
       "category": "Travel",
