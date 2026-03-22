@@ -1,130 +1,26 @@
 [
   {
-    "slug": "whoop-vs-oura-sleep-tracking",
-    "title": "I Wore Whoop and Oura for 30 Days: Here's What Actually Matters",
-    "category": "Reviews",
-    "image": "photo-1576243345690-4e4b79b63288",
-    "excerpt": "BothWhoop and Oura promise to optimize your life with biometric data. After a month with both, the differences are revealing\u2014and most reviews get the tradeoffs completely wrong.",
-    "date": "2026-03-22"
-  },
-  {
-    "slug": "blocking-time-deep-work",
-    "title": "Stop Scheduling Your Day (Do This Instead)",
-    "category": "Routine",
-    "image": "photo-1506784983877-45584a362b4a",
-    "excerpt": "Calendars fill with meetings that could be emails. The most productive people don't manage time\u2014they protect blocks of uninterrupted focus. Here's the architecture of a deep work routine.",
-    "date": "2026-03-22"
-  },
-  {
-    "slug": "90-day-transformation-habits",
-    "title": "What Happened When I Focused on One Habit for 90 Days",
-    "category": "Case Study",
-    "image": "photo-1553587287-aa1cee8f7f96",
-    "excerpt": "I tried the\u6d41\u884c\u7684 12-week body transformation. What actually happened was messier, slower, and more realistic than any before-and-after photo suggests.",
-    "date": "2026-03-22"
-  },
-  {
-    "slug": "growth-vs-fixed-mindset-lies",
-    "title": "The 'Growth Mindset' Advice That Actually Holds You Back",
-    "category": "Mindset",
-    "image": "photo-1529156069898-49953e39b3ac",
-    "excerpt": "Telling yourself 'I can learn anything' sounds motivating but creates cognitive dissonance when you fail. Real growth mindset is recognizing when to persist versus when to pivot.",
-    "date": "2026-03-22"
-  },
-  {
-    "slug": "clutter-cost-mental-energy",
-    "title": "Your Cluttered Home Is Draining Your Mental Energy",
-    "category": "Home Decor",
-    "image": "photo-1556909114-f6e7ad7d3136",
-    "excerpt": "The mess in your home isn't just annoying\u2014it's cognitively exhausting. Clutter constantly triggers your brain's attention systems, draining mental energy you could use for creativity and focus.",
-    "date": "2026-03-22"
-  },
-  {
-    "slug": "latent-tax-burnout",
-    "title": "Your 'Good' Job Is Costing You More Than You Know",
-    "category": "Finance",
-    "image": "photo-1579621970563-ebec7560ff3e",
-    "excerpt": "Income doesn't equal wealth. Most high earners are one layoff away from financial disaster because they spend as fast as they earn. True financial health is about cash flow, not salary.",
-    "date": "2026-03-22"
-  },
-  {
-    "slug": "ice-baths-inflammation",
-    "title": "Ice Baths Reduce Inflammation (But Not For The Reason You Think)",
-    "category": "Recovery",
-    "image": "photo-1607961535401-425959898d9f",
-    "excerpt": "Everyone talks about ice baths for recovery, but the science is nuanced. Cold exposure triggers specific anti-inflammatory responses\u2014but the biggest recovery benefits come from what you do after.",
-    "date": "2026-03-22"
-  },
-  {
-    "slug": "negative-reappraisal-anxiety",
-    "title": "The Mental Technique That Rewires Anxiety Into Calm",
-    "category": "Mind",
-    "image": "photo-1499209974431-9dddcece7f88",
-    "excerpt": "Cognitive reappraisal\u2014reframing how you interpret stress\u2014actually changes your brain's response to anxiety. It's not positive thinking; it's deliberate, evidence-based perspective shifting.",
-    "date": "2026-03-22"
-  },
-  {
-    "slug": "slow-travel-burnout",
-    "title": "Why Slow Travel Is the Antidote to Burnout Culture",
-    "category": "Travel",
-    "image": "photo-1507525428034-b723cf961d3e",
-    "excerpt": "Rushing through destinations on vacation is just another form of burnout. Slow travel\u2014staying longer in fewer places\u2014actually restores mental health and creates lasting memories instead of Instagram moments.",
-    "date": "2026-03-22"
-  },
-  {
-    "slug": "protein-timing-muscle-growth",
-    "title": "When You Eat Protein Matters More Than You Think",
-    "category": "Food",
-    "image": "photo-1504674900247-0877df9cc836",
-    "excerpt": "Most people focus on how much protein they eat, not when. Research shows protein timing and distribution across meals can maximize muscle protein synthesis by up to 25%.",
-    "date": "2026-03-22"
-  },
-  {
-    "slug": "hydration-myths-dehydration",
-    "title": "You're Not Actually Drinking Enough Water (The Signs You're Ignoring)",
-    "category": "Wellness",
-    "image": "photo-1548839140-29a749e1cf4d",
-    "excerpt": "You've been told to drink 8 glasses a day. But thirst, dark urine, and fatigue might mean you're already dehydrated. Most people don't realize how little water their body actually needs to function optimally.",
-    "date": "2026-03-22"
-  },
-  {
-    "slug": "sleep-hunger-connection",
-    "title": "Why You're Hungrier After Sleeping Wrong (And What to Do About It)",
-    "category": "Sleep",
-    "image": "photo-1544367567-0f2fcb009e0b",
-    "excerpt": "Poor sleep doesn't just make you tired\u2014it literally makes you hungrier. Research shows sleep deprivation disrupts hormones, increases junk food cravings, and can add 500+ calories to your daily intake.",
-    "date": "2026-03-22"
-  },
-  {
-    "slug": "science-of-rest-days",
-    "title": "Why Rest Days Are Not Lazy: The Science of Recovery",
-    "category": "Fitness",
-    "image": "photo-1518611012118-696072aa579a",
-    "excerpt": "Most people think rest days mean you're falling behind. Science says otherwise. Understanding recovery is the difference between progressing and overtraining.",
-    "date": "2026-03-22"
-  },
-  {
     "slug": "morning-routine-high-performance",
     "title": "The 5 AM Advantage: How to Build a Morning Routine for Peak Performance",
     "category": "Lifestyle",
-    "excerpt": "Discover how to create a science-backed morning routine that boosts energy, focus, and productivity without burnout. Practical steps for high achievers who want sustainable success.",
     "image": "photo-1517841905240-472988babdf9",
+    "excerpt": "Discover how to create a science-backed morning routine that boosts energy, focus, and productivity without burnout. Practical steps for high achievers who want sustainable success.",
     "date": "2026-03-22"
   },
   {
     "slug": "mindful-technology-boundaries",
     "title": "Digital Boundaries: How to Use Technology Without Letting It Use You",
     "category": "Technology",
-    "excerpt": "Learn how to create mindful technology boundaries that protect your attention, reduce anxiety, and help you reclaim control over your digital life.",
-    "image": "photo-1555421689-491a97ff2040",
+    "image": "photo-1519389950473-47ba0277781c",
+    "excerpt": "Learn how to create mindful technology boundaries that protect your attention, reduce anxiety, and help you reconnect with what matters most in a distracted world.",
     "date": "2026-03-22"
   },
   {
     "slug": "sustainable-wellness-habits",
-    "title": "Beyond the Hype: Building Sustainable Wellness Habits That Actually Stick",
+    "title": "The Sustainable Wellness Habits Nobody Talks About",
     "category": "Wellness",
-    "excerpt": "Stop chasing wellness trends and build habits that last. Learn the science of sustainable behavior change and create a wellness routine you can maintain for life.",
-    "image": "photo-1544367567-0f2fcb009e0b",
+    "image": "photo-1499092346589-b9b6be3e94b2",
+    "excerpt": "Most wellness advice focuses on what to add. The real secrets are what to subtract. Learn the counterintuitive habits that create lasting health without constant willpower.",
     "date": "2026-03-22"
   }
 ]

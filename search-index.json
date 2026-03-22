@@ -1,153 +1,23 @@
 [
   {
-    "title": "I Wore Whoop and Oura for 30 Days: Here's What Actually Matters",
-    "url": "posts/whoop-vs-oura-sleep-tracking.html",
-    "tags": [
-      "wearables",
-      "health-tech",
-      "reviews",
-      "sleep-tracking"
-    ]
-  },
-  {
-    "title": "Stop Scheduling Your Day (Do This Instead)",
-    "url": "posts/blocking-time-deep-work.html",
-    "tags": [
-      "productivity",
-      "routine",
-      "focus",
-      "deep-work"
-    ]
-  },
-  {
-    "title": "What Happened When I Focused on One Habit for 90 Days",
-    "url": "posts/90-day-transformation-habits.html",
-    "tags": [
-      "case-study",
-      "habits",
-      "transformation",
-      "personal"
-    ]
-  },
-  {
-    "title": "The 'Growth Mindset' Advice That Actually Holds You Back",
-    "url": "posts/growth-vs-fixed-mindset-lies.html",
-    "tags": [
-      "mindset",
-      "psychology",
-      "self-awareness",
-      "growth"
-    ]
-  },
-  {
-    "title": "Your Cluttered Home Is Draining Your Mental Energy",
-    "url": "posts/clutter-cost-mental-energy.html",
-    "tags": [
-      "home",
-      "organization",
-      "mental-health",
-      "decor"
-    ]
-  },
-  {
-    "title": "Your 'Good' Job Is Costing You More Than You Know",
-    "url": "posts/latent-tax-burnout.html",
-    "tags": [
-      "finance",
-      "money",
-      "wealth",
-      "burnout"
-    ]
-  },
-  {
-    "title": "Ice Baths Reduce Inflammation (But Not For The Reason You Think)",
-    "url": "posts/ice-baths-inflammation.html",
-    "tags": [
-      "recovery",
-      "cold-therapy",
-      "health",
-      "athletes"
-    ]
-  },
-  {
-    "title": "The Mental Technique That Rewires Anxiety Into Calm",
-    "url": "posts/negative-reappraisal-anxiety.html",
-    "tags": [
-      "anxiety",
-      "mental-health",
-      "mind",
-      "psychology"
-    ]
-  },
-  {
-    "title": "Why Slow Travel Is the Antidote to Burnout Culture",
-    "url": "posts/slow-travel-burnout.html",
-    "tags": [
-      "travel",
-      "wellness",
-      "adventure",
-      "culture"
-    ]
-  },
-  {
-    "title": "When You Eat Protein Matters More Than You Think",
-    "url": "posts/protein-timing-muscle-growth.html",
-    "tags": [
-      "protein",
-      "fitness",
-      "nutrition",
-      "food"
-    ]
-  },
-  {
-    "title": "You're Not Actually Drinking Enough Water (The Signs You're Ignoring)",
-    "url": "posts/hydration-myths-dehydration.html",
-    "tags": [
-      "hydration",
-      "health",
-      "wellness",
-      "water"
-    ]
-  },
-  {
-    "title": "Why You're Hungrier After Sleeping Wrong (And What to Do About It)",
-    "url": "posts/sleep-hunger-connection.html",
-    "tags": [
-      "sleep",
-      "health",
-      "hormones",
-      "nutrition"
-    ]
-  },
-  {
-    "title": "Why Rest Days Are Not Lazy: The Science of Recovery",
-    "url": "posts/science-of-rest-days.html",
-    "tags": [
-      "fitness",
-      "recovery",
-      "health",
-      "science"
-    ]
-  },
-  {
     "title": "The 5 AM Advantage: How to Build a Morning Routine for Peak Performance",
-    "excerpt": "Discover how to create a science-backed morning routine that boosts energy, focus, and productivity without burnout. Practical steps for high achievers who want sustainable success.",
-    "category": "Lifestyle",
-    "url": "/posts/morning-routine-high-performance.html",
-    "image": "photo-1517841905240-472988babdf9"
+    "url": "posts/morning-routine-high-performance.html",
+    "tags": [
+      "lifestyle"
+    ]
   },
   {
     "title": "Digital Boundaries: How to Use Technology Without Letting It Use You",
-    "excerpt": "Learn how to create mindful technology boundaries that protect your attention, reduce anxiety, and help you reclaim control over your digital life.",
-    "category": "Technology",
-    "url": "/posts/mindful-technology-boundaries.html",
-    "image": "photo-1555421689-491a97ff2040"
+    "url": "posts/mindful-technology-boundaries.html",
+    "tags": [
+      "technology"
+    ]
   },
   {
-    "title": "Beyond the Hype: Building Sustainable Wellness Habits That Actually Stick",
-    "excerpt": "Stop chasing wellness trends and build habits that last. Learn the science of sustainable behavior change and create a wellness routine you can maintain for life.",
-    "category": "Wellness",
-    "url": "/posts/sustainable-wellness-habits.html",
-    "image": "photo-1544367567-0f2fcb009e0b"
+    "title": "The Sustainable Wellness Habits Nobody Talks About",
+    "url": "posts/sustainable-wellness-habits.html",
+    "tags": [
+      "wellness"
+    ]
   }
 ]
