@@ -1,951 +1,199 @@
-{
-  "posts": [
-    {
-      "title": "Test Post: Verifying Template System Works",
-      "url": "posts/test-template-verification.html",
-      "tags": [
-        "wellness",
-        "template",
-        "test",
-        "validation"
-      ]
-    },
-    {
-      "title": "Why Group Wellness Rituals Work Better Than Solo Self-Care",
-      "url": "posts/social-wellness-rituals-community-self-care.html",
-      "tags": [
-        "wellness",
-        "community",
-        "social",
-        "mindset",
-        "habits"
-      ]
-    },
-    {
-      "title": "The Real Cost of Decision Fatigue: Why You Make Worse Decisions All Day",
-      "url": "posts/decision-fatigue-real-cost-bad-choices.html",
-      "tags": [
-        "mind",
-        "psychology",
-        "productivity",
-        "mindset"
-      ]
-    },
-    {
-      "title": "Why You Are Always Hungry: The Sleep-Metabolism Connection",
-      "url": "posts/sleep-hunger-metabolism-missing-link.html",
-      "tags": [
-        "sleep",
-        "health",
-        "nutrition",
-        "mindset"
-      ]
-    },
-    {
-      "title": "Why Counting Calories Is Making You Hungrier",
-      "url": "posts/why-counting-calories-making-you-hungrier.html",
-      "tags": [
-        "food",
-        "nutrition",
-        "health",
-        "mindset"
-      ]
-    },
-    {
-      "title": "How to Build a Routine When You Hate Routines",
-      "url": "posts/routine-when-you-hate-routines.html",
-      "tags": [
-        "routine",
-        "habits",
-        "productivity",
-        "mindset"
-      ]
-    },
-    {
-      "title": "Why Your Pre-Sleep Routine Is Making Sleep Worse",
-      "url": "posts/why-pre-sleep-routine-making-sleep-worse.html",
-      "tags": [
-        "sleep",
-        "wellness",
-        "routine",
-        "health"
-      ]
-    },
-    {
-      "title": "Burnout Recovery: The Evidence-Based Guide to Getting Yourself Back",
-      "url": "posts/burnout-recovery-guide.html",
-      "tags": [
-        "burnout",
-        "mental health",
-        "work life balance",
-        "stress",
-        "recovery"
-      ]
-    },
-    {
-      "title": "The Gratitude Practice That Actually Works (And Why Most People Do It Wrong)",
-      "url": "posts/gratitude-practice-scientific-benefits.html",
-      "tags": [
-        "gratitude",
-        "mental health",
-        "wellness",
-        "habits",
-        "psychology"
-      ]
-    },
-    {
-      "title": "Journaling: The Science-Backed Guide to Why It Works",
-      "url": "posts/journaling-science-backed-guide.html",
-      "tags": [
-        "journaling",
-        "mental health",
-        "anxiety",
-        "productivity",
-        "habits"
-      ]
-    },
-    {
-      "title": "The Art of Boundaries: A Practical Guide to Protecting Your Time and Energy",
-      "url": "posts/boundaries-guide-work-life-balance.html",
-      "tags": [
-        "boundaries",
-        "work life balance",
-        "burnout",
-        "mental health",
-        "productivity"
-      ]
-    },
-    {
-      "title": "Omega-3: The Complete Guide to Dosage, Sources, and What Actually Works",
-      "url": "posts/omega-3-dosage-guide.html",
-      "tags": [
-        "omega-3",
-        "fish oil",
-        "nutrition",
-        "supplements",
-        "EPA",
-        "DHA"
-      ]
-    },
-    {
-      "title": "Intermittent Fasting: What the Science Actually Says",
-      "url": "posts/intermittent-fasting-what-science-says.html",
-      "tags": [
-        "intermittent fasting",
-        "nutrition",
-        "weight loss",
-        "metabolic health",
-        "16:8"
-      ]
-    },
-    {
-      "title": "Gut Health: What Actually Matters (And What's Just Noise)",
-      "url": "posts/gut-health-what-actually-matters.html",
-      "tags": [
-        "gut health",
-        "microbiome",
-        "probiotics",
-        "fermented foods",
-        "nutrition"
-      ]
-    },
-    {
-      "title": "The Cold Plunge: What the Science Actually Says",
-      "url": "posts/cold-plunge-science-backed-benefits.html",
-      "tags": [
-        "cold plunge",
-        "cold water",
-        "recovery",
-        "biohacking",
-        "wellness"
-      ]
-    },
-    {
-      "title": "Sleep Hacks That Actually Work (And the Ones That Don't)",
-      "url": "posts/sleep-hacks-what-actually-works.html",
-      "tags": [
-        "sleep",
-        "sleep hacks",
-        "insomnia",
-        "sleep quality",
-        "circadian rhythm"
-      ]
-    },
-    {
-      "title": "Why Your Phone's Default Settings Are Sabotaging Your Productivity",
-      "url": "posts/phone-defaults-sabotaging-productivity.html",
-      "tags": [
-        "phone settings",
-        "productivity",
-        "digital wellness",
-        "focus",
-        "notifications",
-        "tech habits"
-      ]
-    },
-    {
-      "title": "The AI Tool That Actually Saved Me Time (After Three That Didn't)",
-      "url": "posts/ai-tool-that-actually-saved-time.html",
-      "tags": [
-        "AI tools",
-        "productivity",
-        "digital minimalism",
-        "time management",
-        "workflow automation"
-      ]
-    },
-    {
-      "title": "Why Productivity Apps Make You Less Productive \u2014 And What to Do Instead",
-      "url": "posts/productivity-apps-make-you-less-productive.html",
-      "tags": [
-        "tech",
-        "productivity",
-        "digital-minimalism",
-        "work-life-balance",
-        "habits"
-      ]
-    },
-    {
-      "title": "Why Constant Connectivity Is Rewiring Your Brain",
-      "url": "posts/constant-connectivity-rewiring-brain.html",
-      "tags": [
-        "technology",
-        "digital wellness",
-        "focus",
-        "attention span",
-        "brain health",
-        "connectivity"
-      ]
-    },
-    {
-      "title": "The Aesthetic Bedroom Trend That's Costing You Hours of Sleep",
-      "url": "posts/aesthetic-bedroom-ruining-sleep.html",
-      "tags": [
-        "home decor",
-        "sleep",
-        "bedroom design",
-        "interior design",
-        "sleep optimization"
-      ]
-    },
-    {
-      "title": "Why Your Productivity App Is Making You Less Productive",
-      "url": "posts/productivity-app-trap.html",
-      "tags": [
-        "technology",
-        "productivity",
-        "apps",
-        "digital minimalism",
-        "focus"
-      ]
-    },
-    {
-      "title": "Why Digital Detoxes Fail \u2014 And the Tech Habits That Actually Stick",
-      "url": "posts/why-digital-detoxes-fail.html",
-      "tags": [
-        "digital detox",
-        "technology habits",
-        "screen time",
-        "digital wellness",
-        "phone addiction"
-      ]
-    },
-    {
-      "title": "Why \"Staying Positive\" Is Making You More Anxious",
-      "url": "posts/staying-positive-anxiety.html",
-      "tags": [
-        "mindset",
-        "anxiety",
-        "mental-health",
-        "positivity",
-        "emotional-wellness"
-      ]
-    },
-    {
-      "title": "Why \"Staying Positive\" Is Making You More Anxious",
-      "url": "posts/toxic-positivity-anxiety.html",
-      "tags": [
-        "toxic positivity",
-        "anxiety",
-        "emotional agility",
-        "mental health",
-        "mindset"
-      ]
-    },
-    {
-      "title": "Why Overthinking Isn't Actually a Thinking Problem",
-      "url": "posts/overthinking-emotion-not-logic.html",
-      "tags": [
-        "overthinking",
-        "rumination",
-        "emotion regulation",
-        "anxiety",
-        "mental health",
-        "mind"
-      ]
-    },
-    {
-      "title": "The 50/30/20 Rule Is Dead: A Realistic Budget Framework for 2026",
-      "url": "posts/50-30-20-rule-dead.html",
-      "tags": [
-        "finance",
-        "budgeting",
-        "money",
-        "personal-finance",
-        "saving"
-      ]
-    },
-    {
-      "title": "Traveling With Zero Plans: The Art of Getting Lost on Purpose",
-      "url": "posts/traveling-zero-plans.html",
-      "tags": [
-        "travel",
-        "lifestyle",
-        "spontaneity",
-        "digital-nomad",
-        "slow-travel"
-      ]
-    },
-    {
-      "title": "The Gut-Brain Connection: How Your Digestive System Shapes Your Mood, Focus, and Energy",
-      "url": "posts/gut-brain-connection.html",
-      "tags": [
-        "gut-health",
-        "brain",
-        "food",
-        "wellness",
-        "focus"
-      ]
-    },
-    {
-      "title": "Sleep Architecture: Why 8 Hours Is a Myth and What Actually Matters",
-      "url": "posts/sleep-architecture-8-hours-myth.html",
-      "tags": [
-        "sleep",
-        "sleep-architecture",
-        "deep-sleep",
-        "rem-sleep",
-        "wellness"
-      ]
-    },
-    {
-      "title": "The Over-Optimization Trap: When Self-Improvement Hurts You",
-      "url": "posts/over-optimization-trap.html",
-      "tags": [
-        "mindset",
-        "self-improvement",
-        "optimization",
-        "productivity",
-        "wellness"
-      ]
-    },
-    {
-      "title": "The Real Dopamine Detox: How to Reset Your Brain's Reward System",
-      "url": "posts/real-dopamine-detox-brain-reward-system.html",
-      "tags": [
-        "mindset",
-        "dopamine",
-        "digital-detox",
-        "focus",
-        "productivity"
-      ]
-    },
-    {
-      "title": "Cold Exposure Therapy: The Science of Getting Uncomfortable",
-      "url": "posts/cold-exposure-therapy-science.html",
-      "tags": [
-        "wellness",
-        "cold-exposure",
-        "cold-plunge",
-        "dopamine",
-        "recovery"
-      ]
-    },
-    {
-      "title": "Decision Fatigue: Why Making Fewer Choices Makes You More Effective",
-      "url": "posts/decision-fatigue-fewer-choices.html",
-      "tags": [
-        "mindset",
-        "decisions",
-        "productivity",
-        "focus",
-        "mental-energy"
-      ]
-    },
-    {
-      "title": "Your Bedroom Is Keeping You Awake: The Complete Sleep Environment Guide",
-      "url": "posts/sleep-environment-optimization.html",
-      "tags": [
-        "sleep",
-        "bedroom",
-        "environment",
-        "temperature",
-        "light",
-        "darkness",
-        "noise"
-      ]
-    },
-    {
-      "title": "The Evening Routine That Actually Prepares You for Sleep",
-      "url": "posts/evening-routine-sleep-preparation.html",
-      "tags": [
-        "sleep",
-        "evening-routine",
-        "wind-down",
-        "rest",
-        "circadian"
-      ]
-    },
-    {
-      "title": "Micro-Habits: The Small Changes That Compound Into Big Results",
-      "url": "posts/micro-habits-small-changes-big-results.html",
-      "tags": [
-        "mindset",
-        "habits",
-        "productivity",
-        "behavior-change",
-        "compounding"
-      ]
-    },
-    {
-      "title": "Why You're Tired All the Time (And It's Not Just Lack of Sleep)",
-      "url": "posts/why-youre-tired-all-the-time.html",
-      "tags": [
-        "sleep",
-        "fatigue",
-        "tired",
-        "circadian-rhythm",
-        "sleep-quality",
-        "energy"
-      ]
-    },
-    {
-      "title": "The Confidence Paradox: Why You're Most Insecure Exactly Where You're Most Competent",
-      "url": "posts/confidence-paradox-imposter-syndrome.html",
-      "tags": [
-        "mindset",
-        "confidence",
-        "imposter-syndrome",
-        "career",
-        "self-doubt",
-        "personal-growth"
-      ]
-    },
-    {
-      "title": "Micro-Retreats: The 3-Day Reset for People Who Can't Take a Week Off",
-      "url": "posts/micro-retreats-3-day-reset.html",
-      "tags": [
-        "lifestyle",
-        "travel",
-        "retreat",
-        "wellness",
-        "self-care",
-        "weekend"
-      ]
-    },
-    {
-      "title": "The 4-Day Workweek Reality: What Nobody Tells You About Working Less",
-      "url": "posts/4-day-workweek-reality.html",
-      "tags": [
-        "lifestyle",
-        "work",
-        "productivity",
-        "burnout",
-        "work-life-balance"
-      ]
-    },
-    {
-      "title": "The GLP-1 Muscle Crisis: Why Weight-Loss Drugs Are Stealing Your Strength",
-      "url": "posts/glp-1-muscle-crisis.html",
-      "tags": [
-        "wellness",
-        "fitness",
-        "glp-1",
-        "ozempic",
-        "muscle",
-        "protein"
-      ]
-    },
-    {
-      "title": "Grounded Optimism: The Revolutionary Art of Finding Joy Right Now",
-      "url": "posts/grounded-optimism-life-guide.html",
-      "tags": [
-        "mindset"
-      ]
-    },
-    {
-      "title": "Circadian Living: Designing Your Day Around Your Biology, Not the 9-to-5",
-      "url": "posts/circadian-living-guide.html",
-      "tags": [
-        "wellness"
-      ]
-    },
-    {
-      "title": "Micro-Sabbaticals: The Mid-Career Reset That Transforms Your Life",
-      "url": "posts/micro-sabbaticals-career-reset.html",
-      "tags": [
-        "lifestyle"
-      ]
-    },
-    {
-      "title": "The Joyspan Mindset: Finding Lasting Joy in Every Moment",
-      "url": "posts/joyspan-mindset.html",
-      "tags": [
-        "mindset"
-      ]
-    },
-    {
-      "title": "How to Build a Training Routine That Supports Your Life \u2014 Not Consumes It",
-      "url": "posts/how-to-build-training-routine.html",
-      "tags": [
-        "fitness"
-      ]
-    },
-    {
-      "title": "Omega-3 Fatty Acids: The Complete Guide to Benefits, Dosage, and Supplements",
-      "url": "posts/omega-3-fatty-acids-complete-guide.html",
-      "tags": [
-        "food"
-      ]
-    },
-    {
-      "title": "10000 Steps a Day: The Simple Habit That Transforms Your Health",
-      "url": "posts/10000-steps-per-day-benefits.html",
-      "tags": [
-        "fitness"
-      ]
-    },
-    {
-      "title": "Cold Shower Benefits: The Simple Practice That Transforms Your Health",
-      "url": "posts/cold-shower-benefits.html",
-      "tags": [
-        "wellness"
-      ]
-    },
-    {
-      "title": "Morning Sun Exposure: The Simple Habit That Transforms Your Health",
-      "url": "posts/morning-sun-exposure-benefits.html",
-      "tags": [
-        "wellness"
-      ]
-    },
-    {
-      "title": "AI Health Tracking Apps 2026",
-      "url": "posts/ai-health-tracking-apps.html",
-      "tags": [
-        "mind"
-      ]
-    },
-    {
-      "title": "AI Personal Assistants: Your 2026 Digital Co-Pilot",
-      "url": "posts/ai-personal-assistants-2026.html",
-      "tags": [
-        "technology"
-      ]
-    },
-    {
-      "title": "AI for Personal Growth: The Tools That Actually Help",
-      "url": "posts/ai-personal-growth.html",
-      "tags": [
-        "technology"
-      ]
-    },
-    {
-      "title": "The Analog Lifestyle: Digital Detox for 2026",
-      "url": "posts/analog-lifestyle-digital-detox-2026.html",
-      "tags": [
-        "lifestyle"
-      ]
-    },
-    {
-      "title": "The Analog Morning: Reclaiming Focus Before the Day Starts",
-      "url": "posts/analog-morning-2026.html",
-      "tags": [
-        "lifestyle"
-      ]
-    },
-    {
-      "title": "Anti-Inflammatory Diet 2026",
-      "url": "posts/anti-inflammatory-diet-2026.html",
-      "tags": [
-        "food"
-      ]
-    },
-    {
-      "title": "Beginner Yoga Routine",
-      "url": "posts/beginner-yoga-routine.html",
-      "tags": [
-        "fitness"
-      ]
-    },
-    {
-      "title": "Best Home Gym Equipment 2026",
-      "url": "posts/best-home-gym-equipment.html",
-      "tags": [
-        "fitness"
-      ]
-    },
-    {
-      "title": "Best Protein Powders 2026",
-      "url": "posts/best-protein-powders-2026.html",
-      "tags": [
-        "lifestyle"
-      ]
-    },
-    {
-      "title": "Best Red Light Therapy Belts 2026",
-      "url": "posts/best-red-light-therapy-belts-2026.html",
-      "tags": [
-        "recovery"
-      ]
-    },
-    {
-      "title": "Best Running Shoes 2026",
-      "url": "posts/best-running-shoes.html",
-      "tags": [
-        "fitness"
-      ]
-    },
-    {
-      "title": "Best Sleep Tech 2026",
-      "url": "posts/best-sleep-tech-2026.html",
-      "tags": [
-        "reviews"
-      ]
-    },
-    {
-      "title": "Best Supplements for Sleep & Recovery 2026",
-      "url": "posts/best-supplements-sleep-recovery.html",
-      "tags": [
-        "reviews"
-      ]
-    },
-    {
-      "title": "Biohacking for Beginners",
-      "url": "posts/biohacking-beginners.html",
-      "tags": [
-        "fitness"
-      ]
-    },
-    {
-      "title": "Brain Wealth: The Newest Form of Riches",
-      "url": "posts/brain-wealth.html",
-      "tags": [
-        "mind"
-      ]
-    },
-    {
-      "title": "Breathwork for Stress & Focus: The Science-Backed Guide",
-      "url": "posts/breathwork-stress-focus.html",
-      "tags": [
-        "mind"
-      ]
-    },
-    {
-      "title": "How to Build a Life You Don't Need a Vacation From",
-      "url": "posts/build-life-no-vacation.html",
-      "tags": [
-        "lifestyle"
-      ]
-    },
-    {
-      "title": "Cold Exposure Benefits",
-      "url": "posts/cold-exposure.html",
-      "tags": [
-        "wellness"
-      ]
-    },
-    {
-      "title": "Creatine: The Most Researched Supplement",
-      "url": "posts/creatine-benefits.html",
-      "tags": [
-        "food"
-      ]
-    },
-    {
-      "title": "Deep Work: The Skill That Separates Good from Great",
-      "url": "posts/deep-work-focus.html",
-      "tags": [
-        "lifestyle"
-      ]
-    },
-    {
-      "title": "Desk Stretching Routine: Relief for Office Workers",
-      "url": "posts/desk-stretching-routine.html",
-      "tags": [
-        "fitness"
-      ]
-    },
-    {
-      "title": "The Digital Detox Guide: Reclaim Your Attention in 2026",
-      "url": "posts/digital-detox-guide-2026.html",
-      "tags": [
-        "lifestyle"
-      ]
-    },
-    {
-      "title": "Digital Minimalism for a Busy Life",
-      "url": "posts/digital-minimalism-for-busy-life.html",
-      "tags": [
-        "technology"
-      ]
-    },
-    {
-      "title": "Done Is Better Than Perfect: Start Before You're Ready",
-      "url": "posts/done-is-better-than-perfect.html",
-      "tags": [
-        "mindset"
-      ]
-    },
-    {
-      "title": "Glute Gains: The Complete Guide to Building a Stronger, Bigger Butt",
-      "url": "posts/glute-gains-guide.html",
-      "tags": [
-        "fitness"
-      ]
-    },
-    {
-      "title": "Gut Microbiome Foods",
-      "url": "posts/gut-microbiome-foods.html",
-      "tags": [
-        "food"
-      ]
-    },
-    {
-      "title": "Health Raves: The New Way to Workout Without Realizing It",
-      "url": "posts/health-raves-2026.html",
-      "tags": [
-        "lifestyle"
-      ]
-    },
-    {
-      "title": "Home Gym Essentials Under $500",
-      "url": "posts/home-gym-essentials.html",
-      "tags": [
-        "fitness"
-      ]
-    },
-    {
-      "title": "Hydration Tips: How Much Water Do You Really Need?",
-      "url": "posts/hydration-tips.html",
-      "tags": [
-        "food"
-      ]
-    },
-    {
-      "title": "I Finally Finished My First Project \u2014 And It Wasn't Perfect",
-      "url": "posts/i-finished-my-first-project.html",
-      "tags": [
-        "case study"
-      ]
-    },
-    {
-      "title": "Longevity at Home",
-      "url": "posts/longevity-at-home.html",
-      "tags": [
-        "lifestyle"
-      ]
-    },
-    {
-      "title": "Magnesium: The Mineral That Fixes Everything",
-      "url": "posts/magnesium-benefits.html",
-      "tags": [
-        "food"
-      ]
-    },
-    {
-      "title": "Meditation for Beginners",
-      "url": "posts/meditation-beginners.html",
-      "tags": [
-        "wellness"
-      ]
-    },
-    {
-      "title": "Mental Health + Fitness Connection",
-      "url": "posts/mental-health-fitness.html",
-      "tags": [
-        "mind"
-      ]
-    },
-    {
-      "title": "Micro-Habits: The Small Changes That Actually Stick",
-      "url": "posts/micro-habits.html",
-      "tags": [
-        "mindset"
-      ]
-    },
-    {
-      "title": "The Minimalist Morning: Small Rituals for Big Outcomes",
-      "url": "posts/minimalist-morning.html",
-      "tags": [
-        "lifestyle"
-      ]
-    },
-    {
-      "title": "The Mitochondrial Repair Protocol",
-      "url": "posts/mitochondrial-repair-protocol.html",
-      "tags": [
-        "wellness"
-      ]
-    },
-    {
-      "title": "The Money Habits of Highly Effective People",
-      "url": "posts/money-habits-highly-effective-people.html",
-      "tags": [
-        "finance"
-      ]
-    },
-    {
-      "title": "Morning Routine Blueprint: Your 60-Minute Reset",
-      "url": "posts/morning-routine-blueprint.html",
-      "tags": [
-        "routine"
-      ]
-    },
-    {
-      "title": "Morning Routine for Peak Energy",
-      "url": "posts/morning-routine-energy.html",
-      "tags": [
-        "routine"
-      ]
-    },
-    {
-      "title": "NSDR: Non-Sleep Deep Rest Explained",
-      "url": "posts/nsdr-non-sleep-deep-rest.html",
-      "tags": [
-        "recovery"
-      ]
-    },
-    {
-      "title": "Oura Ring vs Whoop",
-      "url": "posts/oura-vs-whoop.html",
-      "tags": [
-        "technology"
-      ]
-    },
-    {
-      "title": "Pilates 2026: Why Everyone's Doing It",
-      "url": "posts/pilates-2026.html",
-      "tags": [
-        "fitness"
-      ]
-    },
-    {
-      "title": "Progressive Overload Guide",
-      "url": "posts/progressive-overload-guide.html",
-      "tags": [
-        "fitness"
-      ]
-    },
-    {
-      "title": "Protein Intake Guide",
-      "url": "posts/protein-intake-guide.html",
-      "tags": [
-        "food"
-      ]
-    },
-    {
-      "title": "Sauna Therapy: Benefits, Protocol & Science",
-      "url": "posts/sauna-therapy-benefits.html",
-      "tags": [
-        "recovery"
-      ]
-    },
-    {
-      "title": "Sleep Optimization Guide",
-      "url": "posts/sleep-optimization.html",
-      "tags": [
-        "wellness"
-      ]
-    },
-    {
-      "title": "Sleep Tech Gadgets 2026",
-      "url": "posts/sleep-tech-gadgets-2026.html",
-      "tags": [
-        "sleep"
-      ]
-    },
-    {
-      "title": "Social Wellness: Building Deep Connections",
-      "url": "posts/social-wellness-deep-connections.html",
-      "tags": [
-        "lifestyle"
-      ]
-    },
-    {
-      "title": "The Rise of Somatic Release: Why Screaming Might Be the Best Therapy",
-      "url": "posts/somatic-release.html",
-      "tags": [
-        "lifestyle"
-      ]
-    },
-    {
-      "title": "Spermidine: The Longevity Molecule",
-      "url": "posts/spermidine-longevity.html",
-      "tags": [
-        "wellness"
-      ]
-    },
-    {
-      "title": "Strength Training After 40: The Reality of Building Muscle When You're Not 25 Anymore",
-      "url": "posts/strength-training-after-40.html",
-      "tags": [
-        "fitness",
-        "strength training",
-        "muscle building",
-        "over 40",
-        "aging",
-        "resistance training"
-      ]
-    },
-    {
-      "title": "Stretching & Mobility Guide",
-      "url": "posts/stretching-mobility.html",
-      "tags": [
-        "fitness"
-      ]
-    },
-    {
-      "title": "The Sunday Reset: 2-Hour Routine",
-      "url": "posts/sunday-reset.html",
-      "tags": [
-        "lifestyle"
-      ]
-    },
-    {
-      "title": "Walking for Health",
-      "url": "posts/walking-for-health.html",
-      "tags": [
-        "fitness"
-      ]
-    },
-    {
-      "title": "Wellness Rooms: Create Your Home Sanctuary",
-      "url": "posts/wellness-rooms.html",
-      "tags": [
-        "wellness"
-      ]
-    },
-    {
-      "title": "Women & Sports Economy 2026",
-      "url": "posts/women-sports-economy.html",
-      "tags": [
-        "lifestyle"
-      ]
-    },
-    {
-      "title": "Zone 2 Cardio: The Foundation of Endurance",
-      "url": "posts/zone-2-cardio.html",
-      "tags": [
-        "fitness"
-      ]
-    },
-    {
-      "title": "The Digital Sunset: A Complete Guide to Evening Screen-Free Time",
-      "url": "posts/digital-sunset-evening-routine.html",
-      "tags": [
-        "wellness"
-      ]
-    }
-  ]
-}
+{"posts": [
+{"title": "10000 Steps a Day: The Simple Habit That Transforms Your Health", "url": "posts/10000-steps-per-day-benefits.html", "category": "General", "excerpt": ""}
+,
+{"title": "The 20-Minute Room: How to Transform Any Space Without Renovation", "url": "posts/20-minute-room-transform-no-renovation.html", "category": "General", "excerpt": ""}
+,
+{"title": "The 4-Day Workweek Reality: What Nobody Tells You About Working Less", "url": "posts/4-day-workweek-reality.html", "category": "General", "excerpt": ""}
+,
+{"title": "The 50/30/20 Rule Is Dead: A Realistic Budget Framework for 2026", "url": "posts/50-30-20-rule-dead.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Aesthetic Bedroom Trend", "url": "posts/aesthetic-bedroom-ruining-sleep.html", "category": "General", "excerpt": ""}
+,
+{"title": "AI Personal Assistants: Your 2026 Digital Co-Pilot", "url": "posts/ai-personal-assistants-2026.html", "category": "General", "excerpt": ""}
+,
+{"title": "AI for Personal Growth: The Tools That Actually Help", "url": "posts/ai-personal-growth.html", "category": "General", "excerpt": ""}
+,
+{"title": "The AI Tool That Actually Saved Me Time (After Three That", "url": "posts/ai-tool-that-actually-saved-time.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Analog Lifestyle: Digital Detox for 2026", "url": "posts/analog-lifestyle-digital-detox-2026.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Analog Morning: Reclaiming Focus Before the Day Starts", "url": "posts/analog-morning-2026.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Anti-Algorithm Movement: Reclaiming Your Attention in the Age of Infinite Scroll", "url": "posts/anti-algorithm-movement.html", "category": "General", "excerpt": ""}
+,
+{"title": "Anti-Inflammatory Diet 2026", "url": "posts/anti-inflammatory-diet-2026.html", "category": "General", "excerpt": ""}
+,
+{"title": "Best Home Gym Equipment 2026", "url": "posts/best-home-gym-equipment.html", "category": "General", "excerpt": ""}
+,
+{"title": "Best Red Light Therapy Belts 2026", "url": "posts/best-red-light-therapy-belts-2026.html", "category": "General", "excerpt": ""}
+,
+{"title": "Best Sleep Tech 2026", "url": "posts/best-sleep-tech-2026.html", "category": "General", "excerpt": ""}
+,
+{"title": "Best Supplements for Sleep & Recovery 2026", "url": "posts/best-supplements-sleep-recovery.html", "category": "General", "excerpt": ""}
+,
+{"title": "Biohacking for Beginners", "url": "posts/biohacking-beginners.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Art of Boundaries: A Practical Guide to Protecting Your Time and Energy", "url": "posts/boundaries-guide-work-life-balance.html", "category": "General", "excerpt": ""}
+,
+{"title": "Brain Wealth: The Newest Form of Riches", "url": "posts/brain-wealth.html", "category": "General", "excerpt": ""}
+,
+{"title": "Breathwork for Stress & Focus: The Science-Backed Guide", "url": "posts/breathwork-stress-focus.html", "category": "General", "excerpt": ""}
+,
+{"title": "How to Plan a Budget Solo Trip: The Complete 2026 Guide", "url": "posts/budget-solo-trip-complete-guide.html", "category": "General", "excerpt": ""}
+,
+{"title": "How to Build a Life You", "url": "posts/build-life-no-vacation.html", "category": "General", "excerpt": ""}
+,
+{"title": "Burnout Recovery: The Evidence-Based Guide to Getting Yourself Back", "url": "posts/burnout-recovery-guide.html", "category": "General", "excerpt": ""}
+,
+{"title": "Why Everyones Talking About Continuous Glucose Monitors in 2026 (Even If Theyre Not Diabetic)", "url": "posts/cgm-wellness-2026.html", "category": "General", "excerpt": ""}
+,
+{"title": "Circadian Living: Designing Your Day Around Your Biology, Not the 9-to-5", "url": "posts/circadian-living-guide.html", "category": "General", "excerpt": ""}
+,
+{"title": "Cold Exposure Therapy: The Science of Getting Uncomfortable", "url": "posts/cold-exposure-therapy-science.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Cold Plunge: What the Science Actually Says", "url": "posts/cold-plunge-science-backed-benefits.html", "category": "General", "excerpt": ""}
+,
+{"title": "Cold Shower Benefits: The Simple Practice That Transforms Your Health", "url": "posts/cold-shower-benefits.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Confidence Paradox: Why Youre Most Insecure Exactly Where Youre Most Competent", "url": "posts/confidence-paradox-imposter-syndrome.html", "category": "General", "excerpt": ""}
+,
+{"title": "Why Constant Connectivity Is Rewiring Your Brain", "url": "posts/constant-connectivity-rewiring-brain.html", "category": "General", "excerpt": ""}
+,
+{"title": "Creatine: The Most Researched Supplement", "url": "posts/creatine-benefits.html", "category": "General", "excerpt": ""}
+,
+{"title": "Decision Fatigue: Why Making Fewer Choices Makes You More Effective", "url": "posts/decision-fatigue-fewer-choices.html", "category": "General", "excerpt": ""}
+,
+{"title": "Deep Work: The Skill That Separates Good from Great", "url": "posts/deep-work-focus.html", "category": "General", "excerpt": ""}
+,
+{"title": "Desk Stretching Routine: Relief for Office Workers", "url": "posts/desk-stretching-routine.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Digital Detox Guide: Reclaim Your Attention in 2026", "url": "posts/digital-detox-guide-2026.html", "category": "General", "excerpt": ""}
+,
+{"title": "Digital Minimalism for a Busy Life", "url": "posts/digital-minimalism-for-busy-life.html", "category": "General", "excerpt": ""}
+,
+{"title": "Digital Sabbaticals: The Rise of the Offline-Only Traveler", "url": "posts/digital-sabbaticals-offline-travel.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Digital Sunset: A Complete Guide to Evening Screen-Free Time", "url": "posts/digital-sunset-evening-routine.html", "category": "General", "excerpt": ""}
+,
+{"title": "Done Is Better Than Perfect: Start Before", "url": "posts/done-is-better-than-perfect.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Evening Routine That Actually Prepares You for Sleep", "url": "posts/evening-routine-sleep-preparation.html", "category": "General", "excerpt": ""}
+,
+{"title": "Financial Wellness: The Basics Nobody Taught You", "url": "posts/financial-wellness-basics-nobody-taught.html", "category": "General", "excerpt": ""}
+,
+{"title": "The First Solitude Trip: Why Your First Solo Weekend Away Matters More Than Graduation", "url": "posts/first-solo-weekend-trip.html", "category": "General", "excerpt": ""}
+,
+{"title": "The GLP-1 Lifestyle Shift: How Weight-Loss Medications Are Reshaping Fitness Culture", "url": "posts/glp-1-lifestyle-shift.html", "category": "General", "excerpt": ""}
+,
+{"title": "The GLP-1 Muscle Crisis: Why Weight-Loss Drugs Are Stealing Your Strength", "url": "posts/glp-1-muscle-crisis.html", "category": "General", "excerpt": ""}
+,
+{"title": "Glute Gains: The Complete Guide to Building a Stronger, Bigger Butt", "url": "posts/glute-gains-guide.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Gratitude Practice That Actually Works (And Why Most People Do It Wrong)", "url": "posts/gratitude-practice-scientific-benefits.html", "category": "General", "excerpt": ""}
+,
+{"title": "Grounded Optimism: The Revolutionary Art of Finding Joy Right Now", "url": "posts/grounded-optimism-life-guide.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Gut-Brain Connection: How Your Digestive System Shapes Your Mood, Focus, and Energy", "url": "posts/gut-brain-connection.html", "category": "General", "excerpt": ""}
+,
+{"title": "Gut Health: What Actually Matters (And", "url": "posts/gut-health-what-actually-matters.html", "category": "General", "excerpt": ""}
+,
+{"title": "How to Host a Dinner Party With $40, a Messy Apartment, and No Idea What", "url": "posts/host-dinner-party-40-dollars.html", "category": "General", "excerpt": ""}
+,
+{"title": "How to Build a Training Routine That Supports Your Life — Not Consumes It", "url": "posts/how-to-build-training-routine.html", "category": "General", "excerpt": ""}
+,
+{"title": "Hydration Tips: How Much Water Do You Really Need?", "url": "posts/hydration-tips.html", "category": "General", "excerpt": ""}
+,
+{"title": "I Finally Finished My First Project — And It", "url": "posts/i-finished-my-first-project.html", "category": "General", "excerpt": ""}
+,
+{"title": "Intermittent Fasting: What the Science Actually Says", "url": "posts/intermittent-fasting-what-science-says.html", "category": "General", "excerpt": ""}
+,
+{"title": "Journaling: The Science-Backed Guide to Why It Works", "url": "posts/journaling-science-backed-guide.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Joyspan Mindset: Finding Lasting Joy in Every Moment", "url": "posts/joyspan-mindset.html", "category": "General", "excerpt": ""}
+,
+{"title": "Micro-Habits: The Small Changes That Actually Stick", "url": "posts/micro-habits.html", "category": "General", "excerpt": ""}
+,
+{"title": "Micro-Habits: The Small Changes That Compound Into Big Results", "url": "posts/micro-habits-small-changes-big-results.html", "category": "General", "excerpt": ""}
+,
+{"title": "Micro-Retreats: The 3-Day Reset for People Who", "url": "posts/micro-retreats-3-day-reset.html", "category": "General", "excerpt": ""}
+,
+{"title": "Micro-Sabbaticals: The Mid-Career Reset That Transforms Your Life", "url": "posts/micro-sabbaticals-career-reset.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Minimalist Morning: Small Rituals for Big Outcomes", "url": "posts/minimalist-morning.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Mitochondrial Repair Protocol", "url": "posts/mitochondrial-repair-protocol.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Money Habits of Highly Effective People", "url": "posts/money-habits-highly-effective-people.html", "category": "General", "excerpt": ""}
+,
+{"title": "Morning Routine Blueprint: Your 60-Minute Reset", "url": "posts/morning-routine-blueprint.html", "category": "General", "excerpt": ""}
+,
+{"title": "NAD+ and Senolytics: The Science of Living Longer, Better", "url": "posts/nad-senolytics-science-living-longer-better.html", "category": "General", "excerpt": ""}
+,
+{"title": "NSDR: Non-Sleep Deep Rest Explained", "url": "posts/nsdr-non-sleep-deep-rest.html", "category": "General", "excerpt": ""}
+,
+{"title": "Omega-3: The Complete Guide to Dosage, Sources, and What Actually Works", "url": "posts/omega-3-dosage-guide.html", "category": "General", "excerpt": ""}
+,
+{"title": "Omega-3 Fatty Acids: The Complete Guide to Benefits, Dosage, and Supplements", "url": "posts/omega-3-fatty-acids-complete-guide.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Over-Optimization Trap: When Self-Improvement Hurts You", "url": "posts/over-optimization-trap.html", "category": "General", "excerpt": ""}
+,
+{"title": "Why Overthinking", "url": "posts/overthinking-emotion-not-logic.html", "category": "General", "excerpt": ""}
+,
+{"title": "Why Your", "url": "posts/phone-defaults-sabotaging-productivity.html", "category": "General", "excerpt": ""}
+,
+{"title": "Pilates 2026: Why", "url": "posts/pilates-2026.html", "category": "General", "excerpt": ""}
+,
+{"title": "Why Productivity Apps Make You Less Productive — And What to Do Instead", "url": "posts/productivity-apps-make-you-less-productive.html", "category": "General", "excerpt": ""}
+,
+{"title": "Why Your Productivity App Is Making You Less Productive", "url": "posts/productivity-app-trap.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Real Dopamine Detox: How to Reset Your", "url": "posts/real-dopamine-detox-brain-reward-system.html", "category": "General", "excerpt": ""}
+,
+{"title": "How to Work Out When You", "url": "posts/restart-fitness-after-years.html", "category": "General", "excerpt": ""}
+,
+{"title": "How to Build a Routine When You Hate Routines", "url": "posts/routine-when-you-hate-routines.html", "category": "General", "excerpt": ""}
+,
+{"title": "Sauna Therapy: Benefits, Protocol & Science", "url": "posts/sauna-therapy-benefits.html", "category": "General", "excerpt": ""}
+,
+{"title": "Sleep Architecture: Why 8 Hours Is a Myth and What Actually Matters", "url": "posts/sleep-architecture-8-hours-myth.html", "category": "General", "excerpt": ""}
+,
+{"title": "Your Bedroom Is Keeping You Awake: The Complete Sleep Environment Guide", "url": "posts/sleep-environment-optimization.html", "category": "General", "excerpt": ""}
+,
+{"title": "Sleep Hacks That Actually Work (And the Ones That", "url": "posts/sleep-hacks-what-actually-works.html", "category": "General", "excerpt": ""}
+,
+{"title": "Sleep Optimization Guide", "url": "posts/sleep-optimization.html", "category": "General", "excerpt": ""}
+,
+{"title": "Slow Travel: A Complete Guide to Working From Anywhere", "url": "posts/slow-travel-complete-guide.html", "category": "General", "excerpt": ""}
+,
+{"title": "Social Wellness: Building Deep Connections", "url": "posts/social-wellness-deep-connections.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Rise of Somatic Release: Why Screaming Might Be the Best Therapy", "url": "posts/somatic-release.html", "category": "General", "excerpt": ""}
+,
+{"title": "Spermidine: The Longevity Molecule", "url": "posts/spermidine-longevity.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Spring Reset: Build a Morning Routine That Actually Sticks", "url": "posts/spring-reset-morning-routine.html", "category": "General", "excerpt": ""}
+,
+{"title": "Why Staying Positive Is Making You More Anxious", "url": "posts/staying-positive-anxiety.html", "category": "General", "excerpt": ""}
+,
+{"title": "Strength Training After 40: The Reality of Building Muscle When", "url": "posts/strength-training-after-40.html", "category": "General", "excerpt": ""}
+,
+{"title": "The Sunday Reset: 2-Hour Routine", "url": "posts/sunday-reset.html", "category": "General", "excerpt": ""}
+,
+{"title": "Why Staying Positive Is Making You More Anxious", "url": "posts/toxic-positivity-anxiety.html", "category": "General", "excerpt": ""}
+,
+{"title": "Traveling With Zero Plans: The Art of Getting Lost on Purpose", "url": "posts/traveling-zero-plans.html", "category": "General", "excerpt": ""}
+,
+{"title": "Wellness Rooms: Create Your Home Sanctuary", "url": "posts/wellness-rooms.html", "category": "General", "excerpt": ""}
+,
+{"title": "Wellness Travel 2026: Why Staycations Are the New Vacations", "url": "posts/wellness-travel-2026-staycations-new-vacations.html", "category": "General", "excerpt": ""}
+,
+{"title": "Why Digital Detoxes Fail — And the Tech Habits That Actually Stick", "url": "posts/why-digital-detoxes-fail.html", "category": "General", "excerpt": ""}
+,
+{"title": "TITLE", "url": "posts/why-pre-sleep-routine-making-sleep-worse.html", "category": "General", "excerpt": ""}
+,
+{"title": "Why Youre Tired All the Time (And Its Not Just Lack of Sleep)", "url": "posts/why-youre-tired-all-the-time.html", "category": "General", "excerpt": ""}
+,
+{"title": "Working From Home Without Losing Your Mind: A Survival Guide", "url": "posts/work-from-home-survival-guide.html", "category": "General", "excerpt": ""}
+,
+{"title": "Zone 2 Cardio: The Foundation of Endurance", "url": "posts/zone-2-cardio.html", "category": "General", "excerpt": ""}
+]}
