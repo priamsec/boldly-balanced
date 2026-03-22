@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "90-day-transformation-habits",
+      "title": "What Happened When I Focused on One Habit for 90 Days",
+      "category": "Case Study",
+      "excerpt": "I tried the\u6d41\u884c\u7684 12-week body transformation. What actually happened was messier, slower, and more realistic than any before-and-after photo suggests.",
+      "image": "https://images.unsplash.com/photo-1553587287-aa1cee8f7f96",
+      "url": "https://blog.boldlybalance.life/posts/90-day-transformation-habits.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/90-day-transformation-habits.json",
+      "date": "2026-03-22",
+      "readingTime": 6
+    },
+    {
       "slug": "growth-vs-fixed-mindset-lies",
       "title": "The 'Growth Mindset' Advice That Actually Holds You Back",
       "category": "Mindset",
