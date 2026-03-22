@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CATEGORY_TITLE | Boldly Balance</title>
+    <meta name="description" content="CATEGORY_DESCRIPTION">
+    <meta name="keywords" content="CATEGORY_KEYWORDS">
+    <link rel="canonical" href="https://blog.boldlybalance.life/category/CATEGORY_SLUG.html">
+    <meta property="og:url" content="https://blog.boldlybalance.life/category/CATEGORY_SLUG.html">
+    <meta property="og:title" content="CATEGORY_TITLE | Boldly Balance">
+    <meta property="og:description" content="CATEGORY_DESCRIPTION">
+    <meta property="og:image" content="CATEGORY_OG_IMAGE">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <link rel="icon" type="image/svg+xml" href="../data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖️</text></svg>">
+    
+    <!-- JSON-LD Organization Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Boldly Balance",
+        "url": "https://blog.boldlybalance.life/",
+        "logo": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop",
+        "sameAs": [
+            "https://twitter.com/boldlybalance",
+            "https://instagram.com/boldlybalance"
+        ],
+        "description": "Boldly Balance empowers you to upgrade daily living with practical tips on fitness, mindfulness, productivity, and sustainable lifestyle choices."
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <a href="/" class="logo">Boldly Balance</a>
+            
+            <div class="nav-links">
+                <div class="dropdown">
+                    <a href="/" class="nav-link">Topics ▾</a>
+                    <div class="dropdown-content">
+                        <a href="category/fitness.html">Fitness</a>
+                        <a href="category/food.html">Food</a>
+                        <a href="category/sleep.html">Sleep</a>
+                        <a href="category/mind.html">Mind</a>
+                        <a href="category/wellness.html">Wellness</a>
+                        <a href="category/lifestyle.html">Lifestyle</a>
+                        <a href="category/technology.html">Technology</a>
+                        <a href="category/recovery.html">Recovery</a>
+                        <a href="category/finance.html">Finance</a>
+                        <a href="category/travel.html">Travel</a>
+                        <a href="category/home-decor.html">Home Decor</a>
+                        <a href="category/mindset.html">Mindset</a>
+                    </div>
+                </div>
+                
+                <div class="search-container">
+                    <span class="search-icon">🔍</span>
+                    <input type="search" class="search-input" placeholder="Search articles...">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Category Hero -->
+    <section class="category-hero">
+        <div class="container">
+            <h1>CATEGORY_TITLE</h1>
+            <p>CATEGORY_DESCRIPTION</p>
+        </div>
+    </section>
+
+    <!-- Category Posts -->
+    <section class="posts-section">
+        <h2>Latest in CATEGORY_TITLE</h2>
+        <div class="post-grid" id="category-posts">
+            <!-- Category posts will be loaded here via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+        <div class="newsletter-content">
+            <h2>Get Weekly CATEGORY_TITLE Tips</h2>
+            <p>Practical advice for mastering CATEGORY_LOWERCASE. Join our community of intentional living enthusiasts.</p>
+            <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thanks for subscribing!')">
+                <input type="email" placeholder="your@email.com" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Boldly Balance. Designed for intentional living.</p>
+    </footer>
+
+    <script>
+        // Header scroll effect
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Load and filter posts by category
+        async function loadCategoryPosts() {
+            try {
+                const response = await fetch('../posts.json');
+                const allPosts = await response.json();
+                
+                // Filter posts for this category (will be replaced dynamically)
+                const categoryPosts = allPosts.filter(post => 
+                    post.category.toLowerCase() === 'CATEGORY_SLUG'
+                ).sort((a, b) => new Date(b.date) - new Date(a.date));
+                
+                const container = document.getElementById('category-posts');
+                
+                if (categoryPosts.length === 0) {
+                    container.innerHTML = `
+                        <div class="post-card" style="text-align: center; padding: 3rem;">
+                            <h3>No posts found in this category yet.</h3>
+                            <p>Check back soon for new CATEGORY_TITLE content!</p>
+                        </div>
+                    `;
+                    return;
+                }
+                
+                container.innerHTML = categoryPosts.map(post => `
+                    <a href="../posts/${post.slug}.html" class="post-card">
+                        <div class="post-card-image">
+                            <img src="https://images.unsplash.com/${post.image}?w=600&q=80" alt="${post.title}" loading="lazy">
+                        </div>
+                        <div class="post-card-content">
+                            <span class="tag">${post.category}</span>
+                            <h3>${post.title}</h3>
+                            <p>${post.excerpt}</p>
+                            <span class="read-more">Read article</span>
+                        </div>
+                    </a>
+                `).join('');
+                
+            } catch (error) {
+                console.error('Error loading category posts:', error);
+                document.getElementById('category-posts').innerHTML = `
+                    <div class="post-card" style="text-align: center; padding: 3rem;">
+                        <h3>Something went wrong loading posts.</h3>
+                        <p>Please try again later.</p>
+                    </div>`;
+            }
+        }
+
+        // Initialize
+        loadCategoryPosts();
+    </script>
+</body>
+</html>

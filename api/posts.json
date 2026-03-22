@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "slug": "science-of-rest-days",
+      "title": "Why Rest Days Are Not Lazy: The Science of Recovery",
+      "category": "Fitness",
+      "excerpt": "Most people think rest days mean you're falling behind. Science says otherwise. Understanding recovery is the difference between progressing and overtraining.",
+      "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a",
+      "url": "https://blog.boldlybalance.life/posts/science-of-rest-days.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/science-of-rest-days.json",
+      "date": "2026-03-22",
+      "readingTime": 7
+    },
+    {
+      "slug": "morning-routine-high-performance",
+      "title": "The 5 AM Advantage: How to Build a Morning Routine for Peak Performance",
+      "category": "Lifestyle",
+      "excerpt": "Discover how to create a science-backed morning routine that boosts energy, focus, and productivity without burnout. Practical steps for high achievers who want sustainable success.",
+      "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+      "url": "https://blog.boldlybalance.life/posts/morning-routine-high-performance.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/morning-routine-high-performance.json",
+      "date": "2026-03-22",
+      "readingTime": 8
+    },
+    {
+      "slug": "mindful-technology-boundaries",
+      "title": "Digital Boundaries: How to Use Technology Without Letting It Use You",
+      "category": "Technology",
+      "excerpt": "Learn how to create mindful technology boundaries that protect your attention, reduce anxiety, and help you reclaim control over your digital life.",
+      "image": "https://images.unsplash.com/photo-1555421689-491a97ff2040",
+      "url": "https://blog.boldlybalance.life/posts/mindful-technology-boundaries.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/mindful-technology-boundaries.json",
+      "date": "2026-03-22",
+      "readingTime": 8
+    },
+    {
+      "slug": "sustainable-wellness-habits",
+      "title": "Beyond the Hype: Building Sustainable Wellness Habits That Actually Stick",
+      "category": "Wellness",
+      "excerpt": "Stop chasing wellness trends and build habits that last. Learn the science of sustainable behavior change and create a wellness routine you can maintain for life.",
+      "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b",
+      "url": "https://blog.boldlybalance.life/posts/sustainable-wellness-habits.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/sustainable-wellness-habits.json",
+      "date": "2026-03-22",
+      "readingTime": 8
+    }
+  ]
+}
