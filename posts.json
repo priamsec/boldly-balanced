@@ -1,34 +1,74 @@
 [
   {
-    "slug": "science-of-rest-days",
-    "title": "Why Rest Days Are Not Lazy: The Science of Recovery",
+    "slug": "finance-pay-yourself-first",
+    "title": "The Pay-Yourself-First Method: Why Saving Before Spending Is the Ultimate Wealth Hack",
+    "category": "Finance",
+    "image": "photo-1579621970563-ebec7560ff3e",
+    "excerpt": "Most people save what's left after spending. The wealthy save first and spend what's left.",
+    "date": "2026-03-23"
+  },
+  {
+    "slug": "routine-optimal-workout-timing",
+    "title": "The Science of Optimal Workout Timing: When to Exercise for Maximum Results",
+    "category": "Routine",
+    "image": "photo-1571019614242-c5c5dee9f50b",
+    "excerpt": "You're working out consistently, but are you working out at the right time?",
+    "date": "2026-03-23"
+  },
+  {
+    "slug": "mindset-reframe-adversity",
+    "title": "The Real Reason You're Stuck: What Adversity Actually Does to You",
+    "category": "Mindset",
+    "image": "photo-1507003211169-0a1dd7228f2d",
+    "excerpt": "Adversity doesn't build character. It reveals it.",
+    "date": "2026-03-22"
+  },
+  {
+    "slug": "tourist-traps-worth-visiting",
+    "title": "The Case for Tourist Traps (Why You Should Visit Them Anyway)",
+    "category": "Travel",
+    "image": "photo-1502602898657-3e91760cbb34",
+    "excerpt": "You roll your eyes at the Eiffel Tower. But tourist traps aren't scams\u2014they're popular for a reason.",
+    "date": "2026-03-22"
+  },
+  {
+    "slug": "fitness-recovery-paradox",
+    "title": "Why You're Not Getting Fitter Despite Training Harder",
     "category": "Fitness",
-    "image": "photo-1518611012118-696072aa579a",
-    "excerpt": "Most people think rest days mean you're falling behind. Science says otherwise. Understanding recovery is the difference between progressing and overtraining.",
+    "image": "photo-1517836357463-d25dfeac3438",
+    "excerpt": "You hit the gym five days a week but feel worse, not better. Your body doesn't build muscle during exercise\u2014it builds muscle during recovery.",
+    "date": "2026-03-22"
+  },
+  {
+    "slug": "caffeine-sleep-sabotage",
+    "title": "Why Your Morning Coffee Might Be Sabotaging Your Sleep",
+    "category": "Sleep",
+    "image": "photo-1495474472287-4d71bcdd2085",
+    "excerpt": "You finish your last cup at 2 PM. So why are you still wired at 11 PM? The answer lies in caffeine's true half-life.",
     "date": "2026-03-22"
   },
   {
     "slug": "morning-routine-high-performance",
     "title": "The 5 AM Advantage: How to Build a Morning Routine for Peak Performance",
     "category": "Lifestyle",
-    "excerpt": "Discover how to create a science-backed morning routine that boosts energy, focus, and productivity without burnout. Practical steps for high achievers who want sustainable success.",
     "image": "photo-1517841905240-472988babdf9",
+    "excerpt": "Discover how to create a science-backed morning routine that boosts energy, focus, and productivity without burnout. Practical steps for high achievers who want sustainable success.",
     "date": "2026-03-22"
   },
   {
     "slug": "mindful-technology-boundaries",
     "title": "Digital Boundaries: How to Use Technology Without Letting It Use You",
     "category": "Technology",
-    "excerpt": "Learn how to create mindful technology boundaries that protect your attention, reduce anxiety, and help you reclaim control over your digital life.",
-    "image": "photo-1555421689-491a97ff2040",
+    "image": "photo-1519389950473-47ba0277781c",
+    "excerpt": "Learn how to create mindful technology boundaries that protect your attention, reduce anxiety, and help you reconnect with what matters most in a distracted world.",
     "date": "2026-03-22"
   },
   {
     "slug": "sustainable-wellness-habits",
-    "title": "Beyond the Hype: Building Sustainable Wellness Habits That Actually Stick",
+    "title": "The Sustainable Wellness Habits Nobody Talks About",
     "category": "Wellness",
-    "excerpt": "Stop chasing wellness trends and build habits that last. Learn the science of sustainable behavior change and create a wellness routine you can maintain for life.",
-    "image": "photo-1544367567-0f2fcb009e0b",
+    "image": "photo-1499092346589-b9b6be3e94b2",
+    "excerpt": "Most wellness advice focuses on what to add. The real secrets are what to subtract. Learn the counterintuitive habits that create lasting health without constant willpower.",
     "date": "2026-03-22"
   }
 ]
