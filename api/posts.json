@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "slug": "routine-optimal-workout-timing",
+      "title": "The Science of Optimal Workout Timing: When to Exercise for Maximum Results",
+      "category": "Routine",
+      "excerpt": "You're working out consistently, but are you working out at the right time?",
+      "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b",
+      "url": "https://blog.boldlybalance.life/posts/routine-optimal-workout-timing.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/routine-optimal-workout-timing.json",
+      "date": "2026-03-23"
+    },
+    {
       "slug": "mindset-reframe-adversity",
       "title": "The Real Reason You're Stuck: What Adversity Actually Does to You",
       "category": "Mindset",
