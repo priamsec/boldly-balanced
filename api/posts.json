@@ -1,6 +1,15 @@
 {
   "posts": [
     {
+      "slug": "nmn-supplements-review-2026",
+      "title": "NMN Supplements in 2026: What the Research Actually Shows",
+      "category": "Reviews",
+      "image": "photo-1584308666744-24d5c474f2ae",
+      "excerpt": "NMN supplements are one of the most hyped biohacking products of the past five years. The science on NAD+ precursors is real but nuanced. Here is what the research actually shows.",
+      "date": "2026-03-23",
+      "url": "https://blog.boldlybalance.life/posts/nmn-supplements-review-2026.html"
+    },
+    {
       "slug": "circadian-rhythm-home-environment",
       "title": "Your Home Is Running Your Biology: How Light, Temperature, and Sound Shape Your Health",
       "category": "Home Decor",
@@ -221,5 +230,5 @@
       "date": "2026-03-22"
     }
   ],
-  "total": 23
+  "total": 24
 }
