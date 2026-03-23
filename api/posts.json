@@ -1,6 +1,15 @@
 {
   "posts": [
     {
+      "slug": "nad-supplements-reality-check",
+      "title": "NAD+ Supplements: What the Science Actually Says (And What It Does Not)",
+      "category": "Recovery",
+      "image": "photo-1576671081837-49000212a370",
+      "excerpt": "The longevity supplement industry is worth $44 billion and promises to slow aging. The science is more complicated.",
+      "date": "2026-03-23",
+      "url": "https://blog.boldlybalance.life/posts/nad-supplements-reality-check.html"
+    },
+    {
       "slug": "social-wellness-connections-matter",
       "title": "Why Social Wellness Connections Matter More Than Your Morning Routine",
       "category": "Wellness",
@@ -100,5 +109,5 @@
       "date": "2026-03-22"
     }
   ],
-  "total": 10
+  "total": 11
 }
