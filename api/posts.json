@@ -1,6 +1,15 @@
 {
   "posts": [
     {
+      "slug": "attention-residue-cost-context-switching",
+      "title": "The Real Reason You Cannot Focus: What Attention Residue Is Costing You",
+      "category": "Mind",
+      "image": "photo-1432821596592-e2c18b78144f",
+      "excerpt": "Every time you switch tasks, part of your attention stays behind. Sophie Leroy named it attention residue. The cost shows up in everything: slower problem-solving, more errors, worse decisions. And most people have no idea they are paying it.",
+      "date": "2026-03-23",
+      "url": "https://blog.boldlybalance.life/posts/attention-residue-cost-context-switching.html"
+    },
+    {
       "slug": "thriving-decades-capability-aging",
       "title": "Thriving Decades: Why Aging Well Is the Ultimate Performance Goal",
       "category": "Mindset",
@@ -164,5 +173,5 @@
       "date": "2026-03-22"
     }
   ],
-  "total": 17
+  "total": 18
 }
