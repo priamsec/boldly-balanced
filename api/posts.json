@@ -1,6 +1,15 @@
 {
   "posts": [
     {
+      "slug": "app-ecosystem-wellness-communities",
+      "title": "The Wellness App Stack That Actually Works: Why Community Over Individual Practice Wins",
+      "category": "Wellness",
+      "image": "photo-1522202176988-66273c2fd55f",
+      "excerpt": "Headspace, Calm, Strava, WHOOP, Aura, Finch. The wellness app ecosystem in 2026 has converged around one insight: people who use these apps with other people get better results than people who use them alone.",
+      "date": "2026-03-23",
+      "url": "https://blog.boldlybalance.life/posts/app-ecosystem-wellness-communities.html"
+    },
+    {
       "slug": "attention-residue-cost-context-switching",
       "title": "The Real Reason You Cannot Focus: What Attention Residue Is Costing You",
       "category": "Mind",
@@ -175,5 +184,5 @@
       "date": "2026-03-22"
     }
   ],
-  "total": 18
+  "total": 19
 }
