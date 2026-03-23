@@ -1,6 +1,15 @@
 {
   "posts": [
     {
+      "slug": "protein-distribution-evidence-based",
+      "title": "The Evidence on Protein Distribution: What the Research Actually Says About Daily Protein Needs",
+      "category": "Food",
+      "image": "photo-1546069901-ba9599a7e63c",
+      "excerpt": "The 120g protein question: is it better to spread protein across 4 meals or concentrate it in 2? The research is more nuanced than the supplement industry claims \u2014 and most people are overthinking it.",
+      "date": "2026-03-23",
+      "url": "https://blog.boldlybalance.life/posts/protein-distribution-evidence-based.html"
+    },
+    {
       "slug": "strength-training-6-month-journey",
       "title": "6 Months of Strength Training: What Actually Changes in the First Half-Year",
       "category": "Case Study",
@@ -239,5 +248,5 @@
       "date": "2026-03-22"
     }
   ],
-  "total": 25
+  "total": 26
 }
