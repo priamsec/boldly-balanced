@@ -1,6 +1,15 @@
 {
   "posts": [
     {
+      "slug": "overthinking-fix-stop-ruminating",
+      "title": "Why Overthinking Is Your Brain Protecting You \u2014 And How to Actually Stop",
+      "category": "Mind",
+      "image": "photo-1499209974431-9dddcece7f88",
+      "excerpt": "You cannot think your way out of overthinking. The rumination loop is not a logic problem \u2014 it is a threat detection system that has gotten too sensitive. Here is what actually interrupts it.",
+      "date": "2026-03-23",
+      "url": "https://blog.boldlybalance.life/posts/overthinking-fix-stop-ruminating.html"
+    },
+    {
       "slug": "lo-fi-wellness-travel-trend",
       "title": "Lo-Fi Wellness: The Travel Trend for People Done With Optimizing",
       "category": "Travel",
@@ -146,5 +155,5 @@
       "date": "2026-03-22"
     }
   ],
-  "total": 15
+  "total": 16
 }
